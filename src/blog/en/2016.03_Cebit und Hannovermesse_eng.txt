@@ -1,0 +1,16 @@
+[title]Exhibitions[title]
+
+[date]02.03.2016[date]
+
+[category]Exhibition[category]
+
+![CeBit 2016](../img/blog/Cebit16.png)
+
+
+[description]
+We are on CeBit and the Hannover Messe for industrial technology as an exhibitor.</br></br>
+
+Two years ago no manufacturing company was excited about our idea and doubts about the feasibility of the project occured.</br>
+Now, tables have turned. Our system enjoys massive popularity on exhibitions. Many companies were interested in becoming manufacturing partners, others want to buy our software.</br></br>
+We use this feedback for further product development, improve the concept and carry the software forward.
+[description]

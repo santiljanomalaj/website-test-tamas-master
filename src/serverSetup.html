@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html class="homepage clearfix" ng-app="homepage" itemscope itemtype="https://schema.org/WebApplication">
+
+<head>
+	<!-- build:section layout.head -->
+	<!-- /build -->
+	<link rel="alternate" hreflang="de" href="https://www.rapidfacture.com/de/serverSetup.html" />
+	<link rel="alternate" hreflang="en" href="https://www.rapidfacture.com/en/serverSetup.html" />
+
+	<meta name="description" content="[[META_DESCRIPTION_serverSetup]]">
+	<meta name="keywords" content="[[META_KEYWORDS_serverSetup]]">
+
+	<title>[[rapidfactureAboutUs]]</title>
+</head>
+
+<body class="severSetup " ng-controller = "serverSetupController" >
+	
+	<!-- build:section recursive layout.nav -->
+	<!-- /build -->
+
+	<div class="content-container margin-nav">
+		
+		<a id="serverSetup-form"></a>
+		<div class="serverSetupdivider rf-page-divider">
+			<div class="divider-text">[[System Setup]]</div>
+		</div>
+		<br>
+		<br>
+		<div class="container">
+			<div class="request">
+				<form name='serverSetupform' class="serverSetup-form" novalidate ng-class="{validate: validate}">
+					<fieldset>
+						<div class="row">
+							<div class="col-xs-6">
+								<select id="language" class="form-control" ng-model="server.language" name="language" required>
+									<option >Language...</option>
+									<option value="en">English</option>
+									<option value="de">Deutsch</option>
+								</select>
+							</div>
+						</div>
+						<br>
+						<br>
+						<div class="row">
+							<div class="col-xs-12">
+								<input id="companyName" name="companyName" placeholder="[[Company name]] *" ng-model="server.companyName" class="form-control" type="text" ng-maxlength="50" required />
+							</div>
+						</div>
+						<br>
+						<br>
+						<div class="row">
+							<div class="col-xs-12">
+								<input id="street" name="street" placeholder="[[Street and number]] *" ng-model="server.street" class="form-control" type="text" ng-maxlength="50" required />
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-xs-12">
+								<input id="address" name="address" placeholder="[[address addition]] *" ng-model="server.address" class="form-control" type="text" ng-maxlength="50" required />
+							</div>
+						</div>	
+						<br>
+						
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input id="postcode" name="postcode" placeholder="[[postcode]] *" ng-model="server.postcode" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+                            <div class="col-xs-6">
+                                <input id="city" name="city" placeholder="[[City]] *" ng-model="server.city" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+                            <div class="col-xs-6">
+                                <input id="state" name="state" placeholder="[[State]] *" ng-model="server.state" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+                            <div class="col-xs-6">
+                                <input id="country" name="country" placeholder="[[country]] *" ng-model="server.country" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+                            <div class="col-xs-6">
+                                <input id="phone" name="phone" placeholder="[[Phone]] *" ng-model="server.phone" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+                            <div class="col-xs-6">
+                                <input id="email" name="email" placeholder="[[E-Mail]] *" ng-model="server.email" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<br>
+						<div class="row">
+                            <div class="col-xs-6">
+                                <input id="vatno" name="vatno" placeholder="[[VAT NO]] *" ng-model="server.vatno" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+                            <div class="col-xs-6">
+                                <input id="filename" name="filename" placeholder="[[filename]] *" ng-model="server.filename" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+                            <div class="col-xs-6">
+                                <input id="website" name="website" placeholder="[[Website]] *" ng-model="server.website" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+                            <div class="col-xs-6">
+                                <input id="logo" name="logo" placeholder="[[Logo]] *" ng-model="server.logo" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+                            <div class="col-xs-6">
+                                <input id="sloganDE" name="sloganDE" placeholder="[[Slogan-DE]] *" ng-model="server.sloganDE" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+                            <div class="col-xs-6">
+                                <input id="sloganEN" name="sloganEN" placeholder="[[Slogan-EN]] *" ng-model="server.sloganEN" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<br>
+						<br>
+						<div class="row">
+                            <div class="col-xs-12">
+                                <input id="bank" name="bank" placeholder="[[bank]] *" ng-model="server.bank" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+                            <div class="col-xs-12">
+                                <input id="iban" name="iban" placeholder="[[IBAN]] *" ng-model="server.iban" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+                            <div class="col-xs-12">
+                                <input id="bic" name="bic" placeholder="[[BIC]] *" ng-model="server.bic" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<br>
+						<br>
+						<br>
+						<div class="row">
+                            <div class="col-xs-12">
+                                <input id="name" name="name" placeholder="[[Name]] *" ng-model="server.name" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+                            <div class="col-xs-12">
+                                <input id="useremail" name="useremail" placeholder="[[Email]] *" ng-model="server.useremail" class="form-control" type="text" ng-maxlength="50" required />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+                            <div class="col-xs-12">
+                                <input class="btn btn-primary" value="+" type="button" />
+                            </div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-xs-12">
+								<input ng-click="sendServerSetup()" value="Submit your Changes" class="btn btn-primary">
+							</div>
+						</div>
+					</fieldset>
+				</form>
+				<div ng-show="sendComplete">
+					<br>
+					<br>
+					<div class="alert alert-success emit" ng-class="{showmessage: sendComplete === true}" role="alert">
+						[[messageSent]]
+					</div>
+				</div>
+				<div ng-show="sendError">
+					<br>
+					<br>
+					<div class="alert alert-danger emit" ng-class="{showmessage: sendError === true}" role="alert">
+						[[messageError]]
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+
+		<!-- build:section recursive layout.footer -->
+		<!-- /build -->
+
+	</div>
+
+
+</body>
+
+</html>

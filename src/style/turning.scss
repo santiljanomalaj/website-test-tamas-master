@@ -1,0 +1,45 @@
+.turning {
+
+  h1 {
+    color: $orange;
+  }
+
+   .image-bg{
+      max-height: 500px;
+      overflow: hidden;
+   }
+
+  .page {
+    padding: 15px;
+    &.data {
+      ul {
+        list-style-image: url(/img/checkmark.svg);
+        padding: 0;
+        li {
+          font-size: 120%;
+          padding: 1%;
+        }
+      }
+    }
+    &.materials {
+      text-align: center;
+      &>div > div {
+        margin-bottom: 15px;
+      }
+      .request {
+          color: $lightblue;
+      }
+      .title {
+        font-size: 120%;
+        font-weight: bold;
+        text-align: center;
+        border-bottom: 4px solid $orange;
+      }
+      .content {
+        &>div {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

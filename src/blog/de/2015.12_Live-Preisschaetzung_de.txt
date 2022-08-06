@@ -1,0 +1,20 @@
+[title]Live-Preisschätzung, Benutzerkonto[title]
+
+[date]06.12.2015[date]
+
+[category]Software[category]
+
+![CAD Live-Preisschätzung](../img/blog/priceCalculation.png)
+
+
+[description]
+Ab sofort steht registrierten Benutzern unsere Live-Preisschätzung zur Verfügung. </br></br>
+
+Die Preisschätzung wird noch weiter entwickelt, umfasst aber bereits viele Parameter wie Materialkosten, Genauigkeit, Oberflächengüten, Radien, Bearbeitungen, Gewicht, die Stabilität des Werkstücks
+(insgesamt ca. 50 Parameter).</br>
+Bei größeren Stückzahle werden Optimierungen zu Material, Maschinen und Prozess mit einbezogen.</br></br>
+
+Weiterhin steht nun ein Benutzerkonto zur Verfügung, indem eigene Zeichnungen gespeichert werden können. Zeichnungen können auf Wunsch öffentlich geteilt werden.</br></br>
+
+Rapidfacture stellt öffentliche CAD-Vorlagen zur Verfügung, mit denen der Einstieg in das CAD erleichtert wir und Standardteile schnell modifiziert werden können.
+[description]

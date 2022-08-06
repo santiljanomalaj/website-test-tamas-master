@@ -1,0 +1,26 @@
+[title]Die Gründer stellen sich vor[title]
+
+[date]02.02.2014[date]
+
+[category]Unternehmen[category]
+[category]Team[category]
+
+![Gründer](../img/blog/Gruender.JPG)
+
+[description]
+Felix Furtmayr (aktuell 26) kümmert sich bei Rapidfacture um Organisation und kaufmännische Leitung. Durch seinen familiären Hintergrund ist er bestens mit dem Unternehmertum vertraut.</br>
+Technisch leitet er bei Rapidfacture die Entwicklung des CAD-Systems.</br>
+Durch seine Vorliebe für Handwerk und Technik kam nach dem Abitur der Wunsch zum Ingenieurstudium.
+Er absolvierte den Bachelor Maschinenbau an der <a href='http://www.thi.de/' title='Homepage TH Ingolstadt'>TH Ingolstadt</a> mit Schwerpunkt Konstruktion und Entwicklung.
+Im Praxissemester beim Zahnradhersteller WMH-Herion wurden Kenntnisse in den Bereichen Fertigung, Konstruktion, CAD sowie Berechnungssoftware erworben.
+Von 2013 bis 2015 folgt ein Master-Studium Mechatronik an der FAU Erlangen-Nürnberg mit den Schwerpunkten „Fertigungsautomatisation und Kunststofftechnik“ sowie 'Elektronische Bauelemente, Schaltungen und Systeme'.
+So wurde das Know-how in den Bereichen Automation, Elektrotechnik, Informatik und Werkzeugmaschinen erweitert und bildet nun die Grundlage für ein Vorhaben, in dem Maschinenbau und Informatik zusammengebracht werden.</br></br>
+
+Bernhard Römer (aktuell 31) übernimmt die technische Leitung des Vorhabens.</br>
+Zu seinen Aufgaben zählen die Optimierung der Logistik sowie Entwicklung der Fertigungssoftware.</br>
+Nach der Ausbildung zum Zerspanungsmechaniker arbeitete er fünf Jahre im Bereich des Dampfturbinenbaus und -services.
+2008 belegte er beim Wettbewerb <a href='http://www.fertigung.de/inhalt/dreher-des-jahres/'  title='Wettbewerb Dreher des Jahres'>„Dreher des Jahres“</a> den zweiten Platz.
+Es folgte die Fortbildung zum staatlich geprüften Maschinenbautechniker. Das Bachelorstudium Maschinen absolvierte er mit dem Schwerpunkt Produktion und Logistik an der TH Ingolstadt.
+Das nachfolgende Master-Studium Maschinenbau mit Schwerpunkt Konstruktion und Entwicklung wurde Anfang 2015 beendet.</br>
+Im Rahmen des Masterprojektes, sowie der Masterarbeit wurden die technischen Bereiche CAD und CAM im Zusammenhang der Gründung recherchiert, konzipiert und weiter ausgearbeitet.
+[description]

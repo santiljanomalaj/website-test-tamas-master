@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="homepage clearfix" ng-app="homepage" itemscope itemtype="https://schema.org/WebApplication">
+
+<head>
+  <!-- build:section layout.head -->
+  <!-- /build -->
+  <link rel="alternate" hreflang="de" href="https://www.rapidfacture.com/de/blog.html" />
+  <link rel="alternate" hreflang="en" href="https://www.rapidfacture.com/en/blog.html" />
+
+
+  <meta name="description" content="[[META_DESCRIPTION_news]]">
+  <meta name="keywords" content="[[META_KEYWORDS_news]]">
+
+  <title>[[blog]]</title>
+</head>
+
+<body class="blog">
+  <!-- build:section recursive layout.nav -->
+  <!-- /build -->
+
+  <div class="content-container margin-nav">
+     <div class="page" ng-controller="blogController as ctrl">
+        <div class="faq-divider rf-page-divider">
+             <div class="divider-text">[[blog]]</div>
+        </div>
+      <div class="container blog-container ">
+
+          <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-12 hidden-lg hidden-xl">
+                 <h2>
+                   [[tags]]
+                 </h2>
+
+                 <!-- <div ng-repeat="cat in categories">{{cat}}</div> -->
+                 <button ng-repeat="cat in categories" class="blog-tag blog-edit" ng-click="$parent.currentFilter = cat"
+                   ng-class="{'active': $parent.currentFilter == cat}">
+                   {{cat}}
+                 </button>
+                 <!-- <div ng-repeat="record in blogRecords"><div ng-repeat="category in record.categories">{{category}}</div></div> -->
+                 <!-- <div ng-repeat="category in categories | filter: filtblogRecords">
+             {{category}}
+                 </div> -->
+
+                 <h2>
+                   [[archiv]]
+                 </h2>
+
+                 <button ng-repeat="year in years" class="blog-tag blog-edit" ng-click="$parent.currentFilter = year" ng-class="{'active': $parent.currentFilter == year}">
+                   {{year}}
+                 </button>
+
+               </div>
+          </div>
+        <div class="blog-item" ng-repeat="record in blogRecords | orderBy:['year','month']:true | filter:currentFilter">
+          <div class="blog-item-content">
+
+             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+               <div class="blog-item-content-image" ng-if="img.length !=0" ng-repeat="img in record.images" ng-bind-html="img | unsafe"></div>
+               <div class="blog-item-content-video" ng-if="video.length !=0" ng-repeat="video in record.videos"
+                 ng-bind-html="video | unsafe"></div>
+             </div>
+             <div class="col-xs-6 col-sm-6 col-md-8 col-lg-7 col-xl-7">
+               <div class="row">
+                 <div class="col-xs-0 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                   <div class="blog-item-head-date">{{record.date}}</div>
+                 </div>
+                 <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                   <div class="blog-tag" ng-repeat="category in record.categories">{{category}}</div>
+                 </div>
+               </div>
+               <div class="blog-item-head-title "> {{record.title}}</div>
+               <div class="blog-item-content-text" ng-class="{'show': item.visible}" ng-bind-html="record.descriptionFull | unsafe "></div>
+               <br>
+               <button class="rf-skewed-button" ng-click="toggle = !toggle; item.visible = !item.visible">
+                 <span ng-show="toggle">[[showLessText]]</span>
+                 <span ng-hide="toggle">[[showMoreText]]</span>
+               </button>
+             </div>
+             <div class="row">
+
+             </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="blog-right-sidebar hidden-xs hidden-sm hidden-md col-lg-1 col-xl-1">
+             <h2>
+               [[tags]]
+             </h2>
+             <div class="row">
+                 <div class="col-xs-12">
+                     <button ng-repeat="cat in categories" class="blog-tag blog-edit" ng-click="$parent.currentFilter = cat"
+                     ng-class="{'active': $parent.currentFilter == cat}">
+                     {{cat}}
+                   </button>
+                 </div>
+             </div>
+
+
+             <h2>
+               [[archiv]]
+             </h2>
+
+             <button ng-repeat="year in years" class="blog-tag blog-edit" ng-click="$parent.currentFilter = year" ng-class="{'active': $parent.currentFilter == year}">
+               {{year}}
+             </button>
+
+          </div>
+        </div>
+
+
+
+      </div>
+     </div>
+
+      <!-- build:section recursive layout.footer -->
+      <!-- /build -->
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+.manufacture {
+   ul {
+      padding-left: 0;
+      list-style-type: none;
+
+      &.advantages {
+         li {
+            position: relative;
+            padding-left: 45px;
+            margin-bottom: 40px;
+         }
+
+         h4 {
+            font-weight: bold;
+         }
+
+         img {
+            position: absolute;
+            left: 0;
+            top: -7px;
+            width: 35px;
+            height: 35px;
+         }
+      }
+
+      &.requirements-and-service-range {
+         padding: 5px 30px;
+         margin-top: 20px;
+         background: $lightgrey;
+         color: $midgrey;
+         margin-bottom: 30px;
+
+         li {
+            margin: 25px 0;
+         }
+
+         p {
+            font-weight: bold;
+            margin: 0;
+         }
+      }
+
+      &.become-partner {
+         padding: 15px;
+         list-style-type: decimal;
+         color: $midgrey;
+
+         li {
+            padding-bottom: 5px;
+         }
+      }
+   }
+
+   .page-contact {
+      border: 1px solid $lightgrey;
+      padding: 0 15px 5px;
+   }
+
+   hr {
+      border: 1px solid $midgrey;
+   }
+
+   .btn,
+   input,
+   textarea {
+      border-radius: 0;
+   }
+
+   .orange {
+      color: $orange;
+   }
+
+   .manufacture-become-partner {
+      text-align: center;
+      background-color: $midgrey;
+      padding: 20px 0 25px;
+      margin: 0;
+   }
+
+   &-partners {
+      font-size: 16px;
+      padding: 25px 0;
+   }
+
+   &-become-partner {
+      padding: 50px 0;
+      display: flex;
+      justify-content: center;
+      background-color: #333333;
+      width: 100%;
+      color: white;
+   }
+}
+@media (max-width: 768px) {
+   .manufacture-partners {
+      padding: 25px 15px;
+   }
+}

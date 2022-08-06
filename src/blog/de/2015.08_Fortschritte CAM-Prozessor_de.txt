@@ -1,0 +1,18 @@
+[title]Fortschritte beim Automatisierten CAM-Prozessor[title]
+
+[date]16.08.2015[date]
+
+[category]Software[category]
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/CFqrW8P7Cqc?rel=0" allowfullscreen></iframe>
+
+
+
+[description]
+Die Entwicklung des CAM-Prozessor schreitet voran. </br>
+Die auf Mustererkennung gestützte Konturzerlegung erkennt Hinterschnitte und Einstiche zuverlässig und wählt die entsprechenden Werkzeuge selbstständig aus.</br>
+In Zukunft können Gewindefreistiche, Schleiffreistiche oder Einstiche für Sicherungsringe in einem standardisierten Prozess gefertigt werden.</br></br>
+
+Im nächsten Schritt werden weitere Bearbeitungen integriert sowie die Radienkompensation überarbeitet. </br>
+So werden runde Einstiche - wie beispielsweise für Seilrollen nötig - fertigbar.
+[description]

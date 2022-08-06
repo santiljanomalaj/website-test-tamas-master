@@ -1,0 +1,16 @@
+[title]New CAD-features[title]
+
+[date]02.10.2015[date]
+
+[category]Software[category]
+
+![CAD 3D-view](../img/blog/cad3dView.png)
+
+
+[description]
+We started the work on user-accounts for the Online-CAD and improved the contour definition process.</br>
+Single elements can be moved by drag and drop so the contour can be redefined easily.</br>
+Furthermore we started with the implementation of a 3D-view, which can be tested in the right side bar of the CAD. </br></br>
+
+We provide an export function for STL files. Transitional radius, chamfer and undercuts are new features under edge/surface view.
+[description]

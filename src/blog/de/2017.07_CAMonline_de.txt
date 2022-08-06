@@ -1,0 +1,15 @@
+[title]CAM System online[title]
+
+[date]23.07.2017[date]
+
+[category]Software[category]
+
+![CAM online](../img/blog/cam_2.jpg)
+
+[description]
+Nach langer Entwicklungsphase konnten wir die ersten Teile mithilfe unseres CAM-Systems fertigen.</br></br>
+
+Das CAM System besitzt nun eine vollausgebaute Weboberfläche und dürfte damit das erste CAM-System online sein.</br>
+Während wir uns auf einfachere Teile fokussieren, können sich die Automatisierungsfeatures sehen lassen:
+Unser CAM ist einfach bedienbar und erzeugt die Bearbeitungsstrategien aktuell noch teilautomatisch, in naher Zukunft dann vollautomatisch.
+[description]

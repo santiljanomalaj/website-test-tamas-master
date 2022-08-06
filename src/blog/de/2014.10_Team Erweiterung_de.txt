@@ -1,0 +1,22 @@
+[title]Team Erweiterung[title]
+
+[date]22.10.2014[date]
+
+[category]Team[category]
+
+![Team Erweiterung](../img/blog/messePaulFalk.png)
+
+
+
+[description]
+Über <a href='http://www.mitgründer.com/' title='Starsteie Mitgründer.com'>Mitgruender.com</a>  lernen wir die beiden Webentwickler Paul Mayer und Falk Michel kennen.</br></br>
+
+Die beiden haben bereits an mehreren Projekten mitgewirkt. Sie bringen für Startups essentielle Eigenschaften mit: Unternehmergeist, Ideenreichtum, Lernfähigkeit und Humor.</br></br>
+
+Es ist eine große Freude, die beiden mit aufzunehmen.</br>
+Falk und Paul haben ein gutes Gespür für Design und Usability - sie widmen sich daher zunächst der Frontend-Entwicklung.</br></br>
+
+Das Bild stammt vom Besuch der <a href='http://www.messe-stuttgart.de/moulding-expo/' title='Messe Stuttgart für Werkzeugformenbau'>Molding Expo</a> 2015.</br></br>
+
+Von links nach rechts sind Falk Michel, Paul Mayer und Bernhard Römer zu sehen.
+[description]

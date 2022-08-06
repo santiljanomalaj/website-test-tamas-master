@@ -1,0 +1,13 @@
+[title]Mahr Messprogramme für Bolzen automatisch erzeugen[title]
+
+[date]01.12.2019[date]
+
+[category]Software[category]
+
+![Mahr-Messmaschine](../img/blog/Mahr-Messmaschine.png)
+
+[description]
+Die Qualität und Genauigkeit von optischen Mahr Messmaschinen steht außer Frage. Ein echtes Qualitätsprodukt made in Germany. Eventuell durch den großen Fachkräftemangel sah sich dennoch ein Kunde dazu veranlasst, uns aufzusuchen bezüglich der Bedienung der Maschine bzw. wegen der zugehörigen Software. Bei Ihm dauerte die Programmerstellung jeweils ca. 1 h pro Bolzen und der Prozess konnte nur von einer bestimmten Person durchgeführt werden, die mit dem ganzen Vertraut ist.</br></br>
+
+Um es direkt heraus zu sagen: So einfach hatten wir es uns nicht vorgestellt. Nach wenigen Tagen war das Format reverse engineered, nach ca. 2 Wochen die zugehörige Software fertig. Nun kann mit 10 Klicks ein komplettes Messprogramm für Bolzen erzeugt werden. Und weil es so schön ist, knüpfen wir gleich unsere CAM Lösung auch an das System. Wir wollen schließlich mehr Produktivität. Mit 11 Klicks hat man nun Messprogramm und NC-Programm.
+[description]

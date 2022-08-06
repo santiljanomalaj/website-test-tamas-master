@@ -1,0 +1,15 @@
+[title]Our team is growing[title]
+
+[date]18.02.2017[date]
+
+
+[category]Team[category]
+
+![Alexander Kohl](../img/blog/Alex.jpg)
+
+
+[description]
+Our former customer Alexander Kohl, a goldsmith and designer, now works for us as a software developer.</br></br>
+Through his mechanical skills and technical understanding he proves to be a valuable asset to the company. </br></br>
+Thanks to his self-taught skills and his knack for design he is already able to work on our ever-growing software.
+[description]

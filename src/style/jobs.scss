@@ -1,0 +1,104 @@
+.jobs {
+   .apply-btn {
+      font-weight: bold;
+      padding: 14px 32px;
+   }
+
+   hr {
+      height: 1px;
+      border: none;
+      color: #333;
+      background-color: #333;
+   }
+
+   .btn-h3 {
+      margin-top: 10px;
+   }
+
+   &-heading {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+   }
+
+   &-positions {
+      margin-top: 50px;
+      margin-bottom: 50px;
+   }
+
+   .global-color {
+      color: $orange;
+   }
+
+   .job-full-description-container {
+      @include transition(0.5s);
+      height: 0;
+      overflow: hidden;
+
+      &.expanded {
+         @include transition(0.5s);
+         height: 720px;
+         @media (min-width: 320px) and (max-width: 767px) {
+            height: 1000px;
+         }
+      }
+      font-size: 14px;
+   }
+
+   .job-heading-color {
+      @include transition(0.5s);
+      background-color: white;
+      padding: 12px;
+
+      &.headColor {
+         @include transition(0.5s);
+         background-color: lightgray;
+      }
+   }
+
+   .jobs-about-us {
+      background-color: lightgray;
+      padding: 10px;
+   }
+
+   .top {
+      font-size: 20px;
+      line-height: 30px;
+
+      h2 {
+         margin-top: 0;
+      }
+
+      h2,
+      h3 {
+         color: $midgrey;
+      }
+
+      p {
+         padding: 7px 0;
+      }
+   }
+
+   &.mid {
+      .popup {
+         right: initial;
+      }
+   }
+
+   .application-box {
+      background-color: lightgrey;
+      padding: 40px;
+
+      .info-text {
+         color: $midgrey;
+
+         h4 {
+            color: $orange;
+         }
+      }
+   }
+
+   .bottom {
+      text-align: center;
+   }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html class="homepage clearfix" ng-app="homepage" itemscope itemtype="https://schema.org/WebApplication">
+
+<head>
+    <!-- build:section layout.head -->
+    <!-- /build -->
+    <link rel="alternate" hreflang="de" href="https://www.rapidfacture.com/de/turning.html" />
+    <link rel="alternate" hreflang="en" href="https://www.rapidfacture.com/en/turning.html" />
+    <meta name="description" content="[[META_DESCRIPTION_production]]">
+    <meta name="keywords" content="[[META_KEYWORDS_production]]">
+
+    <title>[[rapidfactureStoredMaterialsHeadline]]</title>
+</head>
+
+<body class="turning">
+    <!-- build:section recursive layout.nav -->
+    <!-- /build -->
+
+    <rf-contact-note></rf-contact-note>
+
+    <div class="content-container margin-nav">
+        <div class="image-bg">
+            <img src="img/tools.jpg" />
+        </div>
+
+
+        <div class="rf-page-divider divider-big">
+            <div class="divider-text">[[production]]</div>
+        </div>
+
+        <!--<a id="data"></a>
+
+      <br>
+      <br>
+      <br>
+    <a id="production-advantages-title"></a>-->
+
+        <div class="page col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+            <h1 class="title">
+                [[productionAdvantages]]
+            </h1>
+        </div>
+
+        <div class="page data">
+            <div class="row">
+                <div class="page col-xs-12 col-sm-offset-2 col-sm-5 col-md-offset-2 col-md-5 col-lg-offset-2 col-lg-5">
+                    <ul class="question-answer-list">
+                        <li>[[productionText1]]</li>
+                        <li>[[productionText2]]</li>
+                        <li>[[productionText3]]</li>
+                        <li>[[productionText4]]</li>
+                        <li>[[productionText5]]</li>
+                        <li>[[productionText6]]</li>
+                        <!-- Imperial Threads: <li>[[productionText7]]</li>-->
+                        <li>[[productionText8]]</li>
+                        <li>[[productionText9]]</li>
+                        <!-- Heat treatment, Coating: <li>[[productionText10]]</li>-->
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <img src="img/riemenscheibe_bemassung.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <!--a id="materials"></a>
+      <div class="page-break">
+           <h1 class="title">
+               [[storedMaterials]]
+           </h1>
+      </div>
+
+      <div class="page materials" ng-controller="materialController">
+           <div class="row">
+
+               <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" ng-repeat="material in materials">
+                   <div class="title">
+                       {{material.name}}
+                   </div>
+                   <div class="content">
+                       <div ng-repeat="item in material.items">
+                           Ø {{item.diameter}} mm x {{item.length}} m
+                       </div>
+                   </div>
+               </div>
+
+           </div>
+      </div-->
+
+      <!--<a id="materials"></a>-->
+
+      <div class="page col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+            <h1 class="title">
+                [[materialOverview]]
+            </h1>
+        </div>
+
+
+        <div class="page materials">
+            <div class="row">
+                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+                    <img src="img/materials.jpg" alt="Demo Materials" style="width: 70%; margin: 0px 15%;" />
+                </div>
+                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+                    [[storedMaterials1]]
+                </div>
+                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+                    <span class="request">[[storedMaterials2]]</span>
+                </div>
+                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+                    <span>[[storedMaterials3]]</span>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="title">
+                        [[steels]]
+                    </div>
+                    <div class="content">
+                        <div>
+                            11SMnPB30
+                            <br />
+                            [[machiningSteel]]
+                        </div>
+                        <div>
+                            S235
+                            <br />
+                            [[constructionSteel]]
+                        </div>
+                        <div>
+                            C45
+                            <br />
+                            [[machineSteel]]
+                        </div>
+                        <div>
+                            42MnCr4
+                            <br />
+                            [[heatTreatedSteel]]
+                        </div>
+                        <div>
+                            V2A
+                            <br />
+                            [[stainlessSteel]]
+                        </div>
+                        <div class="request" title="[[outOfStock]]">
+                            V4A
+                            <br />
+                            [[stainlessSteel]]
+                        </div>
+                        <div>
+                            16MnCr5
+                            <br />
+                            [[caseHardenedSteel]]
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="title">
+                        [[aluminum]]
+                    </div>
+                    <div class="content">
+                        <div>
+                            AlCuMgPb
+                            <br />
+                            [[standardAlloy]]
+                        </div>
+                        <div>
+                            AlZnMgCu1,5
+                            <br />
+                            [[aircraftGradeAluminum]]
+                        </div>
+                        <div class="request" title="[[outOfStock]]">
+                            AlMgSi1
+                        </div>
+                        <div class="request" title="[[outOfStock]]">
+                            AlMgSi0,5
+                            <br />
+                            [[anodize]]
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearfix visible-xs-block"></div>
+
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="title">
+                        [[copperClasses]]
+                    </div>
+                    <div class="content">
+                        <div>
+                            CuZn39BP3
+                            <br />
+                            [[brass]]
+                        </div>
+                        <div class="request" title="[[outOfStock]]">
+                            CuSn12
+                            <br />
+                            [[bronze]]
+                        </div>
+                        <div class="request" title="[[outOfStock]]">
+                            [[eCopper]]
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <div class="title">
+                        [[plastic]]
+                    </div>
+                    <div class="content">
+                        <div>
+                            POM
+                            <br />
+                            [[blackAndWhite]]
+                        </div>
+                        <div>
+                            PA
+                            <br />
+                            [[blackAndNatureColored]]
+                        </div>
+                        <div class="request" title="[[outOfStock]]">
+                            PEEK
+                            <br />
+                            [[specialPlastic]]
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- build:section recursive layout.footer -->
+        <!-- /build -->
+
+    </div>
+</body>
+
+</html>

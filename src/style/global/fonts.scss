@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'impactreg';
+    src: url('../../fonts/impactreg.eot');
+    src: url('../../fonts/impactreg.woff') format('woff'), url('../../fonts/impactreg.ttf') format('truetype');
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_7349">Text with this font applied</p> */
+.fontsforweb_fontid_7349 {
+    font-family: 'impactreg' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

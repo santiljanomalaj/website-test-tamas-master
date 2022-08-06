@@ -1,0 +1,9 @@
+{
+    "header":"<html><head><link rel='stylesheet' href='../style.css'></head><body><header><img src='../logo.png'/></header><div class='main'>",
+    "footer": "</div><footer><h3>Rapidfacture GmbH</h3>Drehteile online konstruieren, kalkulieren, bestellen.<br><br>08441 / 929 18 77 | <a style='color: orange' href='https://www.rapidfacture.com'>www.rapidfacture.com</a> |info@rapidfacture.com<br>Rapidfacture GmbH | Lerchenhöhe 22 | 85276 Pfaffenhofen<br>Geschäftsführung Bernhard Römer | Felix Furtmayr | HRB 7524</footer></body>",
+
+    "regards": "Freundliche Grüße",
+
+    "contactform": "Website Kontaktformular Anfrage",
+    "contactformHead": "Website Kontaktformular"
+}

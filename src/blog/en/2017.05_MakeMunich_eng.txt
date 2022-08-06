@@ -1,0 +1,16 @@
+[title]Make Munich[title]
+
+[date]22.05.2017[date]
+
+
+[category]Exhibition[category]
+
+![Make Munich 2017](../img/blog/makeMunich.png)
+
+[description]
+Make Munich in May was our first fair for private customers.</br></br>
+We were promptly reminded of how difficult it was to obtain precision parts privately (one of the reasons why we founded Rapidfacture).</br>
+Once again, we noted that trade fairs are good way to recruite new employees - we met our new factory student there.</br></br>
+We redesigned our little demo machine to our Rapidfacture colours and manufactured little blue tokens for the game “Do not get angry, man” for fair visitors.</br>
+Especially the little visitors enjoy it and commented: "Wow"
+[description]

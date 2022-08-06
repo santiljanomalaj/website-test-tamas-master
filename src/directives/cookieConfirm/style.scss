@@ -1,0 +1,45 @@
+rf-cookie-confirm{
+
+   #consent {
+      background-color: rgba(20,20,20,0.8);
+      min-height: 26px;
+      font-size: 14px;
+      color: #ccc;
+      line-height: 40px;
+      padding: 8px 0 8px 30px;
+      font-family: "Trebuchet MS",Helvetica,sans-serif;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      // display: none;
+      z-index: 9999;
+   }
+   #close {
+      float: right;
+      display: inline-block;
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+      margin: -15px 0 0 0;
+      font-weight: bold;
+   }
+   #close:hover {
+      color: #FFF;
+   }
+   #consent a.dont-show {
+      background-color: black;
+      color:white;
+      display: inline-block;
+      border-radius: 5px;
+      padding: 0px 20px ;
+      cursor: pointer;
+      float: left;
+      margin: 8px 60px 8px 10px;
+   }
+   #consent a.dont-show:hover {
+      background-color: $orange;
+   }
+
+
+}

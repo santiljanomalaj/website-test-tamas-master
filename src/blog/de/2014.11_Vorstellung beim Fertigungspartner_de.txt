@@ -1,0 +1,26 @@
+[title]Vorstellung des Projekts beim Fertigungspartner[title]
+
+[date]04.11.2014[date]
+
+[category]Unternehmen[category]
+
+![WMH-Herion Antriebstechnik GmbH](../img/blog/herion.png)
+
+[description]
+Die <a href='http://www.wmh-herion.de/' title='Homepage WMH Herion'>WMH Herion Antriebstechnik GmbH</a>
+ist spezialisiert auf die Entwicklung und Herstellung von Komponenten und Systemlösungen im Bereich der Antriebstechnik, mit besonderem Fokus auf Verzahnungsteilen.</br></br>
+
+Die Fertigung kundenindividueller Sonderlösungen im <h4>Einzelteil- bis Serienbereich</h4> sowie die Produktion eines umfangreichen Standardkomponenten-Programms gehören dabei zu den Schwerpunkten der unternehmerischen Tätigkeit. </br>
+Damit verbunden sind eine gleichbleibend hohe Produktqualität, kurze Lieferzeiten sowie individuelle Beratung und unkomplizierter Service.</br></br>
+
+Für Rapidfacture ist WMH Herion deshalb ein idealer Fertigungspartner.</br>
+CNC-Fertigungsmaschinen sind fast ausschließlich im Besitz von Unternehmen (kleine Hobby-Maschinen ausgenommen), was sich aus dem Maschinenpreis und Platzbedarf ergibt.</br>
+Der Direktvertrieb an Privatkunden ist jedoch für viele Unternehmen nicht lohnend, da insbesondere bei Aufträgen mit kleinem Wert oder kleinen Stückzahlen entstehender Aufwand,
+wie er beispielsweise für die Verwaltung, die Konstruktion und Kalkulation anfällt, in Relation zum eigentlichen Fertigungsaufwand sehr hoch ist.
+Dieser Aufwand muss selbstverständlich auch bezahlt werden.</br></br>
+
+Wir sind überzeugt, diese Kosten durch unser Projekt verringern zu können.</br>
+Unser Vorhaben wird positiv aufgenommen und insbesondere für den Markt mit Privatkunden als interessant eingestuft.</br></br>
+
+Wir freuen uns auf die Zusammenarbeit mit WMH Herion.
+[description]

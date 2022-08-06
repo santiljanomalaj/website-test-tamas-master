@@ -1,0 +1,16 @@
+[title]Progress in automated CAM-processor[title]
+
+[date]16.08.2015[date]
+
+[category]Software[category]
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/CFqrW8P7Cqc?rel=0" allowfullscreen></iframe>
+
+
+[description]
+The development of CAM-processor proceeds.</br>
+The feature based contour disassembling recognizes undercuts and grooves and selects tools automatically.</br>
+Thread and grinding undercuts, grooves for locking rings can be proceeded in a standardized process.</br></br>
+
+As next steps further processings will be integrated and radius compensation revised. Grooves with radius elements – for example required for pulleys – will become producible.
+[description]

@@ -1,0 +1,11 @@
+node_modules/
+config/backend.js
+config/frontend.js
+dest
+npm-debug.log
+lang/keys.csv
+lang/empty_messages.log
+package-lock.json
+tmp/
+.vscode
+statistics/

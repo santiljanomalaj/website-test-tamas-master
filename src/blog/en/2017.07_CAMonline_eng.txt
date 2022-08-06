@@ -1,0 +1,12 @@
+[title]CAM-system online[title]
+
+[date]23.07.2017[date]
+
+[category]Software[category]
+
+![CAM online](../img/blog/cam_2.jpg)
+
+[description]
+After a long development phase, the first parts were made with our CAM system. </br></br>
+The CAM-system now has a web interface and could be the first CAM-system online. Our Online CAM ;-)
+[description]

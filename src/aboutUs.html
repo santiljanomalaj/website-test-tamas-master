@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="homepage clearfix" ng-app="homepage" itemscope itemtype="https://schema.org/WebApplication">
+
+<head>
+   <!-- build:section layout.head -->
+   <!-- /build -->
+   <link rel="alternate" hreflang="de" href="https://www.rapidfacture.com/de/aboutUs.html" />
+   <link rel="alternate" hreflang="en" href="https://www.rapidfacture.com/en/aboutUs.html" />
+
+   <meta name="description" content="[[META_DESCRIPTION_aboutUs]]">
+   <meta name="keywords" content="[[META_KEYWORDS_aboutUs]]">
+
+
+   <title>[[rapidfactureAboutUs]]</title>
+</head>
+
+<body class="about" ng-controller="aboutUsController as ctrl">
+   <!-- build:section recursive layout.nav -->
+   <!-- /build -->
+
+   <div class="content-container margin-nav">
+      <img class="intro-img" src="img/orange_background_aboutUs.jpg" alt="about">
+
+      <a id="team"></a>
+      <div class="rf-page-divider">
+         <div class="divider-text">[[team]]</div>
+      </div>
+      <div class="about-team">
+         <div class="container row about-team-items">
+            <div class="about-team-item col-xs-12 col-sm-6 col-md-4" ng-repeat="worker in teamListNew">
+               <br>
+               <br>
+               <div class="row">
+                  <div class="col-xs-5 col-xs-offset-1">
+                     <img src="img/team/{{worker.img}}" />
+                  </div>
+                  <div class="col-xs-5">
+                     <div style="min-height: 110px;">
+                        <div class="about-team-name">
+                           <strong> {{worker.name}} </strong>
+                        </div>
+                        <span>{{worker[lang].line1}}</span>
+                        <br>
+                        <span>{{worker[lang].line2}}</span>
+                     </div>
+                     <hr>
+                  </div>
+               </div>
+               <div class="row about-description">
+                  <div class="col-xs-12">
+                     <span>{{worker[lang].description}}</span>
+                  </div>
+               </div>
+               <br>
+            </div>
+         </div>
+      </div>
+
+      <a id="products"></a>
+      <div class="rf-page-divider">
+         <div class="divider-text">[[Products]]</div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="about-products">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1">
+                  <iframe src="https://www.youtube.com/embed/NDAIUZDOGxs?rel=0" allowfullscreen="" width="100%"></iframe>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-lg-5">
+                  <br>
+                  <h3>[[productsHeadingOne]]</h3> [[productionOnlineDescription]]
+                  <br>
+                  <a href="index.html">[[readMore]] ...</a>
+               </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+               <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1" style="text-align: right">
+                  <br>
+                  <h3>[[productsHeadingTwo]]</h3> [[standardSoftwareDescription]]
+                  <br>
+                  <a href="softwareStandard.html">[[readMore]] ...</a>
+                  <br>
+               </div>
+               <div class="col-xs-12 col-sm-6 col-lg-5">
+                  <img src="img/aboutUs/women_cad_from_pexels_Eugene_Chystiakov.jpg" />
+               </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+               <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1">
+                  <img src="img/aboutUs/systemtest.JPG" />
+               </div>
+               <div class="col-xs-12 col-sm-6 col-lg-5">
+                  <h3>[[customSoftwareSolutions]]</h3> [[customSoftwareDescription]]
+                  <br>
+                  <a href="software.html">[[readMore]] ...</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <a id="history"></a>
+      <div class="rf-page-divider">
+         <div class="divider-text">[[history]]</div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="about-history">
+         <div class="container">
+            <div class="row" style="position: relative;">
+               <div class="point-container  hidden-xs col-sm-2">
+                  <div class="vertical-line"></div>
+                  <div class="point point1"></div>
+                  <div class="point point2 big"></div>
+                  <div class="point point3"></div>
+               </div>
+               <div class="col-xs-12 col-sm-10 col-sm-offset-2">
+                  <div class="row">
+                     <div class="col-sm-12 col-lg-4">
+                        <img src="img/aboutUs/bernhardFelixStory4.png" />
+                     </div>
+                     <div class="col-sm-12 col-lg-7">
+                        [[bernhardFelixStory4]]
+                     </div>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="row">
+                     <div class="col-sm-12 col-lg-8 col-lg-offset-1" style="text-align: right">
+                        [[bernhardFelixStory2]]
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                     </div>
+                        <div class="col-sm-12 col-lg-2">
+                        <img src="img/aboutUs/gruender.jpg" />
+                     </div>
+                  </div>
+                  <br>
+                  <br>
+                  <div class="row">
+                     <div class="col-sm-12 col-lg-4">
+                        <img src="img/aboutUs/Bernhard_Felix_Garage_2016.png" />
+                     </div>
+                     <div class="col-sm-12 col-lg-6">
+                        [[bernhardFelixStory1]]
+                        <br>
+                        <br>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+               <div class="col-xs-4 text-center">
+                  <img style="max-width:200px" src="img/logos/exist.png">
+               </div>
+               <div class="col-xs-4 text-center">
+                  <img style="max-width:200px" src="img/logos/bmbf.png">
+               </div>
+               <div class="col-xs-4 text-center">
+                  <img style="max-width:200px" src="img/logos/fau.png">
+               </div>
+            </div>
+            <br>
+            <br>
+            <br>
+         </div>
+
+      </div>
+
+      <!-- build:section recursive layout.footer -->
+      <!-- /build -->
+
+   </div>
+</body>
+
+</html>

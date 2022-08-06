@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html class="homepage clearfix" ng-app="homepage" itemscope itemtype="https://schema.org/WebApplication">
+
+<head>
+   <!-- build:section layout.head -->
+   <!-- /build -->
+   <link rel="alternate" hreflang="de" href="https://www.rapidfacture.com/de/software2.html" />
+   <link rel="alternate" hreflang="en" href="https://www.rapidfacture.com/en/software2.html" />
+   <!--link rel="alternate" hreflang="x-default" href="https://www.rapidfacture.com/" /-->
+   <script src="https://d3js.org/d3.v5.min.js"></script>
+   <meta name="keywords" content="[[META_KEYWORDS_softwareStandard]]">
+   <meta name="description" content="[[META_DESCRIPTION_softwareStandard]]">
+   <title itemprop="creator">[[rapidFactureIndexHeadline]]</title>
+</head>
+
+<body class="software-standard">
+   <!-- build:section recursive layout.nav -->
+   <!-- /build -->
+   <!-- build:process -->
+   <rf-software-note></rf-software-note>
+   <div class="content-container margin-nav" ng-controller="softwareStandardController">
+      <div class="animation-container">
+
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                  <object id="rf-animation-box" class="animation-box" type="image/svg+xml" data="img/software/animation.svg"></object>
+               </div>
+               <div class="message-box col-xs-12">
+                  <span ng-class="{'visible': messageState == 'productionIsFun'}">
+                     [[maierProductionIsFun]]
+                  </span>
+                  <span ng-class="{'visible': messageState == 'softwareIsNoFun' || messageState == 'sendRequest'}">
+                     [[maierSoftwareIsNoFun]]
+                     <br>
+                     <span ng-class="{'visible': messageState == 'sendRequest'}">
+                        <small>[[maierSendRequest]]</small>
+                     </span>
+                  </span>
+                  <span ng-class="{'visible': messageState == 'requestsButNoOrder'}">
+                     [[maierRequestButNoOrder]]
+                  </span>
+                  <span ng-class="{'visible': messageState == 'delayedDelivery'}">
+                     [[maierDelayedDelivery]]
+                  </span>
+                  <span ng-class="{'visible': messageState == 'haveAHaeart'}">
+                     [[maierHaveAHaeart]]
+                  </span>
+                  <span ng-class="{'visible': messageState == 'maierIsTheBoss'}">
+                     [[maierIsTheBoss]]
+                  </span>
+                  <span ng-class="{'visible': messageState == 'roomForMore'}">
+                     [[maierRoomForMore]]
+                  </span>
+               </div>
+               <div class="animation-buttons col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-4" ng-hide="!messageState || messageState == 'productionIsFun' || messageState == 'softwareIsNoFun'">
+                        <div class="btn rf-btn" ng-click="sendRequest()">
+                           <span class="hidden-sm hidden-md hidden-lg">1. </span>
+                           [[sendRequest]]
+                        </div>
+                        <div class="rf-triangle-btn glyphicon glyphicon-triangle-right hidden-xs" ng-show="automationProAllowed"></div>
+                     </div>
+                     <div class="col-xs-12 col-sm-4" ng-show="automationProAllowed">
+                        <div class="btn rf-btn" ng-click="toggleAutomation()" ng-hide="automationActive">
+                           <span class="hidden-sm hidden-md hidden-lg">2. </span>
+                           [[startAutomationPro]]
+                        </div>
+                        <div class="btn rf-btn rf-btn-grey" ng-click="toggleAutomation()" ng-show="automationActive">
+                           <span class="hidden-sm hidden-md hidden-lg">2. </span>
+                           [[stopAutomationPro]]
+                        </div>
+                        <div class="rf-triangle-btn glyphicon glyphicon-triangle-right hidden-xs" ng-show="automationActive"></div>
+                     </div>
+                     <div class="col-xs-12 col-sm-4">
+                        <a class="btn rf-btn" href="#learn-more" ng-show="automationActive">
+                           <span class="hidden-sm hidden-md hidden-lg">3. </span>
+                           [[learnMore]]
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="separation-line grey"></div>
+
+      <div class="rf-erp-calc grey-box">
+         <!--inserting gradient -->
+         <div class="container">
+            <br>
+            <div id="learn-more"></div>
+            <br>
+            <br>
+            <br>
+            <div  class="overview-heading"><b>[[allInOneFactorySolution]]</b></div>
+            <br>
+            <br>
+            <div class="overview-second-headline">[[productionGoesDigital]]</div>
+            <br>
+            <div class="row">
+               <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2"> <img ng-src="../img/overview/[[overviewPie]].png" alt="overview-img"> </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+         </div>
+      </div>
+
+      <div class="separation-line image">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12 col-sm-3 col-lg-3">
+                  <img class="contact" src="./img/team/felix_350.png" alt="felixFurtmayr">
+               </div>
+               <div class="col-xs-12 col-md-7 col-lg-7">
+                  <h3>[[productionIsFunThusWeCreatedAutomation]]</h3>
+                  <br>
+                  <h3>[[productionWillChange]]</h3>
+                  <br>
+                  <h3>[[weWeillGuideYou]]</h3>
+                  <br>
+                  Felix Furtmayr
+                  <br>
+                  [[managementRapidfacture]]
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="rf-erp-calc black-box"> <br> <br> <br> <br>
+         <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1"> <img src="../img/software/software_calculations.png" alt=""> </div>
+            <div class="col-xs-12 col-sm-6 col-lg-5">
+               <h3>[[erpAndCalc_1]]</h3>
+               <p>[[erpAndCalc_1_1]]</p>
+               <p>[[erpAndCalc_1_2]]</p>
+               <p>[[erpAndCalc_1_3]]</p>
+               <p>[[erpAndCalc_1_4]]</p>
+               <p>[[erpAndCalc_1_5]]</p>
+               <p>[[erpAndCalc_1_6]]</p>
+            </div>
+         </div> <br> <br>
+         <div class="row" style="text-align: right">
+            <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1">
+               <h3>[[erpAndCalc_2]]</h3>
+               <p>[[erpAndCalc_2_1]]</p>
+               <p>[[erpAndCalc_2_2]]</p>
+               <p>[[erpAndCalc_2_3]]</p>
+               <p>[[erpAndCalc_2_4]]</p>
+               <p>[[erpAndCalc_2_5]]</p>
+               <p>[[erpAndCalc_2_6]]</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-5"> <img src="../img/software/software_drawings.png" alt=""> </div>
+         </div> <br> <br>
+         <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1"> <img src="../img/software/software_customers.png" alt=""> </div>
+            <div class="col-xs-12 col-sm-6 col-lg-5">
+               <h3>[[erpAndCalc_3]]</h3>
+               <p>[[erpAndCalc_3_1]]</p>
+               <p>[[erpAndCalc_3_2]]</p>
+               <p>[[erpAndCalc_3_3]]</p>
+               <p>[[erpAndCalc_3_4]]</p>
+               <p>[[erpAndCalc_3_5]]</p>
+            </div>
+         </div> <br> <br> <br> <br>
+      </div>
+
+      <div class="separation-line"></div>
+
+      <div class="software-add-ons black-box">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12"> <br> <br>
+                  <h1><b>[[softwareAddOns]]</b></h1> <br><br>
+               </div>
+            </div>
+            <div class="row hidden-xs add-on-container">
+               <div class="add-on-container-width" ng-class="{active: activeAddOn === 1}" ng-click="activeAddOn = 1">
+                  <div class="head">
+                     <h3><b>[[mailImportModul]]</b></h3>
+                  </div> <img src="../img/software/module_mailimport.png" alt="">
+               </div>
+               <div class="add-on-container-width" ng-class="{active: activeAddOn === 2}" ng-click="activeAddOn = 2">
+                  <div class="head">
+                     <h3><b>[[partnerModul]]</b></h3>
+                  </div> <img src="../img/software/module_partner.png" alt="">
+               </div>
+               <div class="add-on-container-width" ng-class="{active: activeAddOn === 3}" ng-click="activeAddOn = 3">
+                  <div class="head">
+                     <h3><b>[[shippingModul]]</b></h3>
+                  </div> <img src="../img/software/module_shipping.png" alt="">
+               </div>
+               <div class="add-on-container-width" ng-class="{active: activeAddOn === 4}" ng-click="activeAddOn = 4">
+                  <div class="head">
+                     <h3><b>[[accountingModul]]</b></h3>
+                  </div> <img src="../img/software/module_accounting.png" alt="">
+               </div>
+            </div>
+            <div class="row visible-xs add-on-container">
+               <div class="col-xs-offset-1 col-xs-10">
+                  <div class="add-on-container-width" ng-click="activeAddOn = 1">
+                     <div class="head">
+                        <h3><b>[[mailImportModul]]</b></h3>
+                     </div> <img src="../img/software/module_mailimport.png" alt="">
+                     <div class="add-on-description" ng-show="activeAddOn === 1">
+                        <h3>[[mailImportModulHead]]</h3>
+                        <ul>
+                           <li>[[mailimportModul_1]]</li>
+                           <li>[[mailimportModul_2]]</li>
+                           <li>[[mailimportModul_3]]</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="add-on-container-width" ng-click="activeAddOn = 2">
+                     <div class="head">
+                        <h3><b>[[partnerModul]]</b></h3>
+                     </div> <img src="../img/software/module_partner.png" alt="">
+                     <div class="add-on-description" ng-show="activeAddOn === 2">
+                        <h3>[[partnerModulHead]]</h3>
+                        <ul>
+                           <li>[[partnerModul_1]]</li>
+                           <li>[[partnerModul_2]]</li>
+                           <li>[[partnerModul_3]]</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="add-on-container-width" ng-click="activeAddOn = 3">
+                     <div class="head">
+                        <h3><b>[[shippingModul]]</b></h3>
+                     </div> <img src="../img/software/module_shipping.png" alt="">
+                     <div class="add-on-description" ng-show="activeAddOn === 3">
+                        <h3>[[shippingModulHead]]</h3>
+                        <ul>
+                           <li>[[shippingModulModul_1]]</li>
+                           <li>[[shippingModulModul_2]]</li>
+                           <li>[[shippingModulModul_3]]</li>
+                           <li>[[shippingModulModul_4]]</li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="add-on-container-width" ng-click="activeAddOn = 4">
+                     <div class="head">
+                        <h3><b>[[accountingModul]]</b></h3>
+                     </div> <img src="../img/software/module_accounting.png" alt="">
+                     <div class="add-on-description" ng-show="activeAddOn === 4">
+                        <h3>[[accountingModulHead]]</h3>
+                        <ul>
+                           <li>[[accountingModul_1]]</li>
+                           <li>[[accountingModul_2]]</li>
+                           <li>[[accountingModul_3]]</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div> <br>
+            <div class="row hidden-xs">
+               <div class="col-xs-12">
+                  <div class="add-on-description" ng-show="activeAddOn === 1">
+                     <h3>[[mailImportModulHead]]</h3>
+                     <ul>
+                        <li>[[mailimportModul_1]]</li>
+                        <li>[[mailimportModul_2]]</li>
+                        <li>[[mailimportModul_3]]</li>
+                     </ul>
+                  </div>
+                  <div class="add-on-description" ng-show="activeAddOn === 2">
+                     <h3>[[partnerModulHead]]</h3>
+                     <ul>
+                        <li>[[partnerModul_1]]</li>
+                        <li>[[partnerModul_2]]</li>
+                        <li>[[partnerModul_3]]</li>
+                     </ul>
+                  </div>
+                  <div class="add-on-description" ng-show="activeAddOn === 3">
+                     <h3>[[shippingModulHead]]</h3>
+                     <ul>
+                        <li>[[shippingModulModul_1]]</li>
+                        <li>[[shippingModulModul_2]]</li>
+                        <li>[[shippingModulModul_3]]</li>
+                        <li>[[shippingModulModul_4]]</li>
+                     </ul>
+                  </div>
+                  <div class="add-on-description" ng-show="activeAddOn === 4">
+                     <h3>[[accountingModulHead]]</h3>
+                     <ul>
+                        <li>[[accountingModul_1]]</li>
+                        <li>[[accountingModul_2]]</li>
+                        <li>[[accountingModul_3]]</li>
+                     </ul>
+                  </div>
+               </div>
+            </div> <br> <br> <br> <br>
+         </div>
+      </div>
+      <div class="see-for-yourself">
+         <div class="top-gradient"></div>
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12">
+                  <h2><b>[[convinceYourself]]</b></h2> <br>
+                  <div class="btn rf-btn form-control demo-btn" ng-click="jumpToDemoContact()"> <span>[[requestFreeDemo]]</span> </div> <br><br>
+               </div>
+            </div>
+         </div>
+         <div class="bottom-gradient"></div>
+      </div>
+      <div class="advantages black-box">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12"> <br> <br>
+                  <h1><b>[[yourBenefitsAtGlance]]</b></h1> <br><br>
+               </div>
+            </div> <br>
+            <div class="row">
+               <div class="col-xs-12 col-sm-4"> <img src="../img/logos/graphic_icon.svg" alt="">
+                  <div class="text-container">
+                     <h3>[[easy]]</h3> [[easy_desc]].
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-4"> <img src="../img/logos/box_icon.svg" alt="">
+                  <div class="text-container">
+                     <h3>[[automatic]]</h3> [[automatic_desc]].
+                  </div>
+               </div>
+               <div class="col-xs-12 col-sm-4"> <img src="../img/logos/gravur_icon.svg" alt="">
+                  <div class="text-container">
+                     <h3>[[practical]]</h3> [[practical_desc]].
+                  </div>
+               </div>
+            </div> <br> <br> <br> <br>
+         </div>
+      </div>
+
+      <div class="separation-line"></div>
+
+      <div class="prices  black-box" id="prices">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12"> <br> <br>
+                  <h1><b>[[pricing]]</b></h1> <br><br>
+               </div>
+            </div> <br>
+            <div class="row">
+               <div class="col-sm-6">
+                  <div class="btn rf-btn form-control" ng-click="pricesFor = 'serverBox'" ng-class="{inactive: pricesFor === 'enterprise'}">
+                     <!--  <h3><b>[[serverBox]]</b></h3> -->
+                     <h3><b>[[rapidfactureCloud]]</b></h3> [[forSmallBusinesses]]
+                  </div>
+                  <div class="active-line" ng-class="{active: pricesFor === 'serverBox'}"></div>
+               </div>
+               <div class="col-sm-6">
+                  <div class="btn rf-btn form-control" ng-click="pricesFor = 'enterprise'" ng-class="{inactive: pricesFor === 'serverBox'}">
+                     <h3><b>[[enterprise]]</b></h3> [[10employeesUp]]
+                  </div>
+                  <div class="active-line" ng-class="{active: pricesFor === 'enterprise'}"></div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12">
+                  <div class="active-price-box" ng-class="{active: pricesFor === 'serverBox'}">
+                     <div class="visible-xs col-xs-12 col-sm-5">
+                        <div class="new-product">
+                           <p class="white s24 bold">[[new]]: <span class="s18">[[theServerBox]]</span></p>
+                           <p class="white s16">[[solutionForSmallBusinesses]].<br>[[easyAutomaticPractical]].</p>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-7">
+                        <div class="product-description"> </div>
+                     </div>
+                     <div class="price-box table">
+                        <div class="row">
+                           <!-- ERP & CALC START -->
+                           <div class="col-xs-12 cell heading">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8">
+                                    <h2 class="active">[[lizenceErpCalcWithMaintenance]]</h2>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4">
+                                    <h2 ng-class="{active: prices.monthly.licenseErpCalc.choosen}" class="orange">{{prices.monthly.licenseErpCalc.price}} €/[[month]]</h2>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[annualSystemUpdates]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.yearlySystemUpdates.choosen}">[[inclusive]]</p> <i class="glyphicon glyphicon-ok disabled"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc hover" ng-click="showFreeSupport = !showFreeSupport">
+                                    <p class="active"> [[standardSupport]] <i class="glyphicon glyphicon-info-sign" ng-hide="showFreeSupport"></i> <i class="glyphicon glyphicon-remove" ng-show="showFreeSupport"></i> </p> <span
+                                       ng-show="showFreeSupport"> [[standardSupportDescription]] </span>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.freeSupport.choosen}">[[inclusive]]</p> <i class="glyphicon glyphicon-ok disabled"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">3 [[user]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.freeUsers.choosen}">[[inclusive]]</p> <i class="glyphicon glyphicon-ok disabled"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[additionalUser]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.extraUser.choosen}"><b>{{prices.monthly.extraUser.price}} €/[[month]]</b> [[perUser]]. [[quantity]]:</p> <input type="number" style="width:35px;" class="form-control grey-input"
+                                       ng-change="refreshTotal()" ng-model="prices.monthly.extraUser.quantity">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[monitoringServerAvailability]], [[mailNotificationsErrorCase]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.monitoring.choosen}">{{prices.monthly.monitoring.price}} €/[[month]]</p> <input type="checkbox" class="styled-checkbox" ng-change="refreshTotal()"
+                                       ng-model="prices.monthly.monitoring.choosen"> <i class="glyphicon glyphicon-unchecked"></i> <i class="glyphicon glyphicon-ok" ng-if="prices.monthly.monitoring.choosen"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[premiumSupport]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p>[[onRequest]]</p>
+                                 </div>
+                              </div>
+                           </div> <!-- ERP & CALC END -->
+                           <!-- MODULES START -->
+                           <div class="col-xs-12 cell heading">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8">
+                                    <h2 class="active">[[licenseModules]]</h2>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4">
+                                    <h2 ng-show="prices.monthly.licenseModules.totalPrice > 0"
+                                       ng-class="{active: prices.monthly.mailImportModul.choosen || prices.monthly.shippingModul.choosen || prices.monthly.partnerModul.choosen || prices.monthly.accountingModul.choosen}" class="orange">
+                                       {{prices.monthly.licenseModules.totalPrice}} €/[[month]]</h2>
+                                    <h2 ng-show="prices.monthly.licenseModules.totalPrice === 0">{{prices.monthly.licenseModules.price}} €/[[month]]</h2>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[mailImportModul]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.mailImportModul.choosen}"><b>{{prices.monthly.mailImportModul.price}} €/[[month]]</b></p> <input type="checkbox" class="styled-checkbox" ng-change="refreshTotal()"
+                                       ng-model="prices.monthly.mailImportModul.choosen"> <i class="glyphicon glyphicon-unchecked"></i> <i class="glyphicon glyphicon-ok" ng-if="prices.monthly.mailImportModul.choosen"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[shippingModul]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.shippingModul.choosen}"><b>{{prices.monthly.shippingModul.price}} €/[[month]]</b></p> <input type="checkbox" class="styled-checkbox" ng-change="refreshTotal()"
+                                       ng-model="prices.monthly.shippingModul.choosen"> <i class="glyphicon glyphicon-unchecked"></i> <i class="glyphicon glyphicon-ok" ng-if="prices.monthly.shippingModul.choosen"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[partnerModul]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.partnerModul.choosen}"><b>{{prices.monthly.partnerModul.price}} €/[[month]]</b></p> <input type="checkbox" class="styled-checkbox" ng-change="refreshTotal()"
+                                       ng-model="prices.monthly.partnerModul.choosen"> <i class="glyphicon glyphicon-unchecked"></i> <i class="glyphicon glyphicon-ok" ng-if="prices.monthly.partnerModul.choosen"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[accountingModul]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.accountingModul.choosen}"><b>{{prices.monthly.accountingModul.price}} €/[[month]]</b></p> <input type="checkbox" class="styled-checkbox" ng-change="refreshTotal()"
+                                       ng-model="prices.monthly.accountingModul.choosen"> <i class="glyphicon glyphicon-unchecked"></i> <i class="glyphicon glyphicon-ok" ng-if="prices.monthly.accountingModul.choosen"></i>
+                                 </div>
+                              </div>
+                           </div> <!-- MODULES END -->
+                           <!-- INSTALLATION START -->
+                           <div class="col-xs-12 cell heading">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8">
+                                    <h2 class="active">[[hardwareAndSetup]]</h2>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4"></div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8">
+                                    <p class="active">[[installationAndSetup]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.freeSupport.choosen}">{{prices.oneOff.installation.price}} €</p> <i class="glyphicon glyphicon-ok disabled"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8">
+                                    <p class="active">[[serverBox]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4">
+                                    <p ng-class="{active: prices.monthly.freeSupport.choosen}">{{prices.oneOff.rfServerBox.price}} €</p> <i class="glyphicon glyphicon-ok disabled"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[nextBusinessDayRepair]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.monthly.hardwareRepair.choosen}"><b>{{prices.monthly.hardwareRepair.price}} €/[[month]]</b></p> <input type="checkbox" class="server-box styled-checkbox" ng-change="refreshTotal()"
+                                       ng-model="prices.monthly.hardwareRepair.choosen"> <i class="glyphicon glyphicon-unchecked"></i> <i class="glyphicon glyphicon-ok" ng-if="prices.monthly.hardwareRepair.choosen"></i>
+                                 </div>
+                              </div>
+                           </div> <!-- SERVERBOX END -->
+                           <!-- TRAININGS START -->
+                           <div class="col-xs-12 cell heading">
+                              <div class="row">
+                                 <div class="col-xs-12">
+                                    <h2 class="active">[[training]]</h2>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[initialTraining]]: 2 x [[onlineSeminar]] 1h</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.oneOff.firstTraining.choosen}">[[inclusive]]</p> <i class="glyphicon glyphicon-ok disabled"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[buildingSeminar]]: 2 x [[onlineSeminar]] 1h</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.oneOff.onlineSeminar.choosen}"><b>{{prices.oneOff.onlineSeminar.price}} €</b></p> <input type="checkbox" class="styled-checkbox" ng-change="refreshTotal()"
+                                       ng-model="prices.oneOff.onlineSeminar.choosen"> <i class="glyphicon glyphicon-unchecked"></i> <i class="glyphicon glyphicon-ok" ng-if="prices.oneOff.onlineSeminar.choosen"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc hover" ng-click="showTrainingOnSpot = !showTrainingOnSpot">
+                                    <p class="active"> [[onSiteTraining]] <i class="glyphicon glyphicon-info-sign" ng-hide="showTrainingOnSpot"></i> <i class="glyphicon glyphicon-remove" ng-show="showTrainingOnSpot"></i> </p> <span
+                                       ng-show="showTrainingOnSpot">[[onSiteTrainingDescription]].</span>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p ng-class="{active: prices.oneOff.trainingOnSpot.choosen}"><b>ab {{prices.oneOff.trainingOnSpot.price}} €</b></p> <input type="checkbox" class="styled-checkbox" ng-change="refreshTotal()"
+                                       ng-model="prices.oneOff.trainingOnSpot.choosen"> <i class="glyphicon glyphicon-unchecked"></i> <i class="glyphicon glyphicon-ok" ng-if="prices.oneOff.trainingOnSpot.choosen"></i>
+                                 </div>
+                              </div>
+                           </div> <!-- TRAININGS END -->
+                        </div> <br>
+                        <div class="row">
+                           <!-- TOTAL PRICES START -->
+                           <div class="col-xs-12 col-sm-offset-5 col-sm-7">
+                              <div class="row cell heading total-cost">
+                                 <h2 class="active">[[oneTimeCosts]]:</h2>
+                                 <h2 class="orange floated active">{{oneOffTotal}} € netto</h2>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-offset-5 col-sm-7">
+                              <div class="row cell heading total-cost">
+                                 <h2 class="active">[[monthlyCosts]]:</h2>
+                                 <h2 class="orange floated active">{{monthlyTotal}} € netto</h2>
+                              </div>
+                           </div> <!-- TOTAL PRICES START -->
+                        </div>
+                     </div>
+                  </div>
+                  <div class="active-price-box" ng-class="{active: pricesFor === 'enterprise'}">
+                     <div class="price-box table enterprise">
+                        <div class="row">
+                           <div class="col-xs-12 col-md-8">
+                              <h2 style="margin-top: 0;">[[softwareSolutionsTailoredYourNeeds]]</h2> <br>
+                              <div class="row">
+                                 <div class="col-xs-8 header-info"> [[adviseTestingAndSupportWeAreThereForYou]] </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 col-md-4" style="padding: 0;"> <img src="img/software/erp_tablet_small.jpg" /> </div>
+                           <div class="row">
+                              <div class="col-xs-12"> <br> </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[softwareLicenseForPurchase]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p style="color: #f47721; font-weight: bold">[[from]] 16.900 €</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-7 col-md-8 desc">
+                                    <p class="active">[[10employeesUp]]</p>
+                                 </div>
+                                 <div class="col-xs-5 col-md-4 left-border">
+                                    <p style="color: #f47721; font-weight: bold">[[anyNumberOfUsers]]</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-12">
+                                    <p class="active">[[hostingLocalOrYourDataCenter]]</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-12">
+                                    <p class="active">[[trainingAndServiceTailored]]</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-12 col-md-12">
+                                    <p class="active">[[recommendedAnnualMaintenance]]</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-12">
+                                    <p class="active">[[integrationToYourSystem]]</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12 cell">
+                              <div class="row">
+                                 <div class="col-xs-12">
+                                    <p class="active">[[developementOfOwnModules]]</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div> <!-- <br>             <br>             <br>             <br> -->
+         </div>
+      </div>
+      <div class="contact black-box" id="request-demo">
+         <div class="container">
+            <div class="page-contact form black-box" ng-controller="contactController">
+               <div class="row">
+                  <div class="col-xs-12" style="color: grey; text-align: center"> <br> <br>
+                     <h3><b>[[interessted]]?</b> [[contactUsForDemoSoftware]].</h3> <br> <br>
+                  </div>
+               </div>
+               <div class="row" style="margin: 0">
+                  <div class="col-xs-12 col-sm-5"> <br>
+                     <div class="row">
+                        <div class="col-xs-12">
+                           <rf-contact-torsten></rf-contact-torsten>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-7">
+                     <div class="request">
+                        <form id='contact-form-second' name='contactform' novalidate ng-class="{validate: validate}">
+                           <div class="row">
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> <input id="name-second" name="NAME" placeholder="[[name]] *" ng-model="message.name" class="form-control grey-input" type="text" ng-maxlength="50" required /> <br />
+                              </div>
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> <input id="company-second" name="COMPANY" placeholder="[[company]]" ng-model="message.company" class="form-control grey-input" type="text" ng-maxlength="50" required />
+                                 <br /> </div>
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> <input id="phone-second" name="PHONE" placeholder="[[yourPhone]] *" ng-model="message.phone" class="form-control grey-input" type="text" ng-maxlength="50" required />
+                                 <br /> </div>
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> <input id="email-second" name="EMAIL" placeholder="[[yourEmail]] *" ng-model="message.email" class="form-control grey-input" type="email"
+                                    ng-valid="/^[a-zA-Z0-9!#$%'*+=?^_`{|}~.-]+[@][a-z0-9-_]+[\.][a-z0-9-]+$/" ng-minlength="5" ng-maxlength="50" required /> <br /> </div>
+                              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <textarea id="message-second" ng-model="message.message" placeholder="[[contactFormMeetingProposal]]" class="message form-control rf-form grey-input"></textarea>
+                              </div>
+                              <div class="col-xs-12"> <br> [[allMarkedAreMandatory]] <br> <i class="glyphicon glyphicon-lock"></i><span> [[privacyInfo]] <a href="privacy-policy.html"> [[privacyPolicy]]</a>.</span> </div>
+                              <div class="col-xs-12"> <br>
+                                 <div id="request-now-second" ng-click="sendContact()" class="btn rf-btn form-control send demo-btn"> <b>[[requestFreeDemo]]</b> </div> <br> <br>
+                              </div>
+                              <div class="col-xs-12">
+                                 <div ng-show="sendComplete"> <br> <br>
+                                    <div class="alert alert-success" ng-class="{showmessage: sendComplete === true}" role="alert">
+                                       <h4>[[messageSent]]</h4>
+                                    </div> <br>
+                                 </div>
+                                 <div ng-show="sendError"> <br> <br>
+                                    <div class="alert alert-danger" ng-class="{showmessage: sendError === true}" role="alert">
+                                       <!-- <div class="alert alert-danger showmessage"> -->
+                                       <h4>[[messageError]]</h4>
+                                    </div> <br>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div> <br> <br> <br>
+         </div>
+      </div> <!-- /build -->
+      <!-- build:section recursive layout.footer -->
+      <!-- /build -->
+   </div> <!-- Chat bot-->
+   <script>
+      window.intergramId = "-341142967";
+      window.intergramCustomizations = {
+         titleClosed: '[[closedChat]]',
+         titleOpen: '[[openedChat]]',
+         introMessage: '[[welcomeChat]]',
+         autoResponse: '[[responseChat]]',
+         autoNoResponse: '[[noResponseChat]]',
+         mainColor: "#E64A19",
+         alwaysUseFloatingButton: false
+      };
+   </script>
+   <script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
+</body>
+
+</html>

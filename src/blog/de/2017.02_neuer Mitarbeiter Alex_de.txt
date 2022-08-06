@@ -1,0 +1,17 @@
+[title]Unser Team wächst[title]
+
+[date]18.02.2017[date]
+
+
+[category]Team[category]
+
+![Alexander Kohl](../img/blog/Alex.jpg)
+
+
+[description]
+Unser ehemaliger Kunde Alexander Kohl, gelernter Goldschmied und Konstruktionsmechaniker, arbeitet nun als Softwareentwickler für uns.</br></br>
+
+Er erweist sich durch sein handwerkliches Geschick und technisches Verständnis als wertvoller Gewinn für die Firma. </br></br>
+
+Durch seine autodidaktischen Fähigkeiten und das Händchen für Design leistet er tolle Arbeit für unsere Softwareprodukte.
+[description]

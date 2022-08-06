@@ -1,0 +1,19 @@
+[title]Make Munich[title]
+
+[date]22.05.2017[date]
+
+
+[category]Messe[category]
+
+![Make Munich 2017](../img/blog/makeMunich.png)
+
+
+[description]
+Die 'Make Munich' im Mai war unsere erste Privatkundenmesse. Prompt wurden wir daran erinnert wie schwer es damals war, privat Präzisionsteile zu beschaffen (ein Grund weshalb wir dieses Unternehmen gegründet haben).</br></br>
+
+Wieder stellen wir fest, dass Messen gut für Personalbeschaffung sind – wir haben unseren neuen Werksstudenten kennengelernt.</br></br>
+
+Unsere kleiner Demo-Drehmaschine haben wir entsprechend unseres Firmenlogos umgestaltet und live Spielfiguren (wie man sie von 'Mensch ärgere dich nicht' kennt) gedreht.</br>
+Das hat vorallem unsere kleinen Besucher am Stand gefreut: „Wow, das geht aber schnell und die Oberfläche ist viel schöner als beim 3D-Druck“.</br>
+Während wir selbst einigen Anwendungen des 3D Drucks kritisch gegenüber stehen haben wir ein paar schöne Anwendungen betrachetet, wie Architekturmodelle und Designerlampen.
+[description]

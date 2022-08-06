@@ -1,0 +1,90 @@
+<div class="request" ng-controller="partRequestController">
+
+    <form name='quotation' novalidate ng-class="{validate: validate}">
+
+        <fieldset class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <input id="email" name="EMAIL" placeholder="[[email]] *" class="form-control" type="email"
+                ng-model="meta.email" ng-valid="/^[a-zA-Z0-9!#$%'*+=?^_`{|}~.-]+[@][a-z0-9-_]+[\.][a-z0-9-]+$/"
+                ng-minlength="5" ng-maxlength="50" required/>
+        </fieldset>
+        <fieldset class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <input id="phone" name="Tel" placeholder="[[phone]] *" class="form-control" type="text"
+                ng-model="meta.phone" ng-valid="/^[^a-zA-Z(){},.!§$%=?]+$/" ng-minlength="6"
+                ng-maxlength="25" required/>
+        </fieldset>
+
+        <fieldset class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <input id="name" name="Name" placeholder="[[name]] *" class="form-control" type="text"
+                ng-model="meta.name" required/>
+        </fieldset>
+        <fieldset class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <input id="company-name" name="company-name" placeholder="[[companyName]]" class="form-control" type="text"
+                ng-model="meta.companyName">
+        </fieldset>
+
+        <!--fieldset class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
+            <input id="name" name="Name" placeholder="[[street]] *" class="form-control" type="text"
+                ng-model="meta.name" required/>
+        </fieldset>
+
+        <fieldset class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <input id="zip" name="zip" placeholder="[[zip]] *" class="form-control" type="text"
+                ng-model="meta.zip">
+        </fieldset>
+        <fieldset class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <input id="city" name="city" placeholder="[[city]] *" class="form-control" type="text"
+                ng-model="meta.city">
+        </fieldset-->
+
+
+        <fieldset class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <textarea id="message" ng-model="meta.message" placeholder="[[commentToYourDrawing]]"
+                class="message form-control"></textarea>
+        </fieldset>
+
+        <fieldset class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <label for="file-upload" class="btn btn-default file-upload" ng-class="{'ng-invalid': items.length == 0 && validate}">
+                    [[chooseFile]]
+                </label>
+                <div class="file-upload-field">
+                    <input type="file" id="file-upload" class="upload" multiple onchange="angular.element(this).scope().setFiles(this.files)"
+                    />
+                </div>
+
+                <label class="upload-formats">
+                    <br>
+                    <strong>.pdf</strong> ([[technical2DDrawing]])
+                </label>
+        </fieldset>
+
+        <fieldset class="price-per col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="item in items">
+                <div>{{item.name}}
+                    <div class="btn red" ng-click="removeItem($index)">[[remove]]</div>
+                </div>
+                <br>
+                <input type="number" ng-model="item.quantity[0]" required min="1" max="10000000" ng-init="1"
+                />
+                <input type="number" ng-model="item.quantity[1]" placeholder="[[Quantity]] 2" min="1"
+                    max="10000000" />
+                <input type="number" ng-model="item.quantity[2]" placeholder="[[Quantity]] 3" min="1"
+                    max="10000000" />
+        </fieldset>
+
+        <fieldset class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div ng-hide="quotation.$valid && items.length > 0" class="btn btn-disabled send" ng-click="validate = true">
+               [[requestNow]]
+            </div>
+            <div id="request-now" ng-show="quotation.$valid && items.length > 0" class="btn rf-btn send"
+                ng-click="sendAll()">
+                <span ng-hide="percentComplete !== 0">[[requestNow]]</span>
+                <span ng-hide="percentComplete === 0">Upload  {{percentComplete}} %</span>
+            </div>
+            <br>
+            <br>
+            <div ng-show="uploadSuccess">[[thanksForRequest]]</div>
+            <div ng-show="validate && (!quotation.$valid || items.length == 0 )">[[pleaseFillInFields]]</div>
+        </fieldset>
+
+    </form>
+
+</div>

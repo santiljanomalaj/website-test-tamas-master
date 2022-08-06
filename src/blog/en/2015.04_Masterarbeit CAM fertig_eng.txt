@@ -1,0 +1,21 @@
+[title]Finalized master thesis regarding CAM solution[title]
+
+[date]16.04.2015[date]
+
+[category]Company[category]
+[category]Software[category]
+
+![Master Thesis Automated CAM](../img/blog/Masterarbeit_Bernhard.png)
+
+
+[description]
+The master thesis for our CAM-solution is submitted at University of Applied Sciences Nuremberg.</br>
+Research about existing CAM-software in the beginning, lead to the new development of our own process optimized solution with our own CAD format.</br>
+The concept was validated on a CNC-turning machine at a manufacuring parter.</br></br>
+
+Special thanks to Prof. Dipl.-Ing. K.-D. Beier for his engaged supervision of the thesis.</br>
+The impelementation, further development and adoption to products of software partners will be our challenge for the next months.</br>
+For the upcoming testing and optimation of simple turning processes, as well as demonstration of process chain a used small CNC-turning machine will be bought.</br></br>
+
+This will be funded with resources of EXIST founder scholarship.
+[description]

@@ -1,0 +1,189 @@
+.about {
+   .about-description {
+      margin: 30px 0;
+      font-size: 12px;
+      text-align: justify;
+   }
+
+   &-history {
+      font-size: 18px;
+   }
+
+   &-team {
+      padding: 50px 0;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      img {
+         border-radius: 60%;
+         width: 100%;
+      }
+
+      .about-team-items {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         color: grey;
+      }
+
+      hr {
+         border-width: 2px;
+         border-color: $orange;
+         margin: 0;
+         width: 100%;
+      }
+
+      .about-team-description {
+         padding-top: 20px;
+         padding-bottom: 20px;
+         font-style: italic;
+      }
+
+      .about-team-name {
+         color: grey;
+         font-size: 16px;
+      }
+   }
+
+   &-products {
+      font-size: 18px;
+
+      h3 {
+         font-size: 40px;
+         color: $grey;
+         margin-bottom: 20px;
+      }
+   }
+
+   .point-container{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+   }
+   .vertical-line {
+      width: 5px;
+      background: #f4a721;
+      height: 100%;
+      margin-left: 45px;
+   }
+
+   .point {
+      position: absolute;
+      left: 47px;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      background: $orange;
+
+      &.big{
+         left: 42px;
+         width: 40px;
+         height: 40px;
+         border-radius: 20px;
+      }
+
+      &.point1 {
+         background: $orange;
+         top: 79px;
+      }
+
+      &.point2 {
+         background: #ff6706;
+         top: 389px;
+      }
+
+      &.point3 {
+         background: #f4c521;
+         top: 771px;
+      }
+   }
+}
+@media (min-width: 1500px) {
+   .about {
+      .container {
+         width: 1400px;
+      }
+
+      &-products {
+         iframe {
+            height: 300px;
+         }
+      }
+   }
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+   .about {
+      &-products {
+         iframe {
+            height: 300px;
+         }
+      }
+   }
+}
+@media (min-width: 769px) and (max-width: 1199px) {
+   .about {
+      &-team {
+         &-text {
+            font-size: 12px;
+         }
+
+         &-name {
+            font-size: 14px;
+         }
+      }
+
+      &-products {
+         font-size: 16px;
+
+         h3 {
+            font-size: 20px;
+         }
+
+         iframe {
+            height: 220px;
+         }
+      }
+   }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+   .about {
+      &-history {
+         font-size: 16px;
+      }
+
+      &-team {
+         &-item {}
+      }
+
+      &-products {
+         font-size: 15px;
+
+         h3 {
+            font-size: 18px;
+         }
+      }
+   }
+}
+@media (max-width: 768px) {
+   .about {
+      &-history {
+         font-size: 16px;
+      }
+
+      &-team {}
+   }
+}
+@media (max-width: 560px) {
+   .about {
+      &-history {
+         font-size: 14px;
+      }
+
+      &-team {
+         padding: 25px 15px;
+      }
+   }
+}

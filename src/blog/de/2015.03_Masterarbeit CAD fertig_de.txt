@@ -1,0 +1,21 @@
+[title]Masterarbeit zum webbasierten CAD fertig[title]
+
+[date]11.03.2015[date]
+
+[category]Unternehmen[category]
+[category]Software[category]
+
+
+![Master Thesis Online-CAD](../img/blog/Materarbeit_Felix_Titelbild.png)
+
+
+[description]
+Um das Projekt auf eine solide Grundlage zu stellen, widmen die beiden Gründer Felix Furtmayr und Bernhard Römer ihre Masterarbeiten dem Vorhaben.</br></br>
+
+Die Arbeit zum webbasierten CAD wird von Felix Furtmayr abgegeben.</br>
+Darin wurde das CAD-System konzeptioniert und eine umfangreiche Recherche zu JavaScript-Frameworks (MVC, SVG, WebGL, ...) und weiteren Webtechnologien durchgeführt.</br>
+Außerdem wurde ein erster einfacher Protoyp implementiert. Die weitere Implementierung im Projekt stützt sich auf die Ergebnisse der Arbeit. </br></br>
+
+Vielen Dank an den <a href='http://www.faps.de/'>Lehrstuhl für Fertigungsautomatisierung und Produktionssystematik der FAU-Erlangen'>Lehrstuhl für Fertigungsautomatisierung und Produktionssystematik
+(FAPS)</a> an der FAU Erlangen, an dem die Arbeit betreut wurde.
+[description]

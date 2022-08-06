@@ -1,0 +1,35 @@
+body {
+  background: lightgrey;
+  color: rgb(99, 106, 114);
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif
+}
+
+header {
+  background: rgb(72, 72, 72);
+  color: white;
+  padding: 17px;
+  margin: 0px;
+  overflow: auto
+}
+
+header img{
+    float:left;
+    width: 300px;
+}
+
+.main {
+  background: white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+footer {
+  width: 600px;
+  margin: 10px auto;
+  background: white;
+  padding: 30px;
+  text-align: center;
+}

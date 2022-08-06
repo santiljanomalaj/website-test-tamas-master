@@ -1,0 +1,503 @@
+nav {
+   border-radius: 0;
+   background: rgba(255, 255, 255, 1);
+   border: 0;
+   // border-bottom: 1px solid $orange;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   position: absolute;
+
+   .large-font{
+      font-size: 18px;
+   }
+
+   .close-nav-layer {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 13;
+   }
+
+   .navbar-header {
+      position: absolute;
+      background: $grey;
+      padding-left: 38px;
+      padding-right: 100px;
+      margin-left: -38px;
+      z-index: 13;
+      height: 30px;
+      min-width: 435px;
+
+      .navbar-toggle {
+         span {
+            background: white;
+         }
+
+         &:focus span,
+         &:hover span {
+            background: $orange;
+         }
+      }
+
+      p {
+         color: white;
+         padding: 7px;
+         text-align: center;
+         width: 100%;
+         padding-left: 55px;
+
+      }
+
+      .divider {
+         width: 0;
+         content: '';
+         position: absolute;
+         top: 0;
+         right: -20px;
+         border-left: 20px solid $grey;
+         border-top: 30px solid transparent;
+         margin-right: 0;
+      }
+   }
+
+   .navbar-brand {
+      padding: 10px 30px;
+      height: 50px;
+      position: absolute;
+
+      img {
+         height: 100%;
+      }
+   }
+
+   .nav-1,
+   .nav-2 {
+      font-size: 12px;
+      position: absolute;
+
+      & > li {
+         & > a {
+            color: $darkgrey;
+            font-weight: bold;
+
+            &:focus,
+            &:hover {
+               color: $orange;
+            }
+         }
+
+         &.login {
+            position: absolute;
+            top: 36px;
+            right: 0;
+            margin-right: -15px;
+            font-size: 18px;
+
+            a {
+               color: $orange;
+
+               &:focus,
+               &:hover {
+                  color: $darkgrey;
+               }
+            }
+         }
+
+         .lang-switch {
+            padding: 4px 10px !important;
+            margin-right: -15px;
+            max-width: none;
+
+            img {
+               width: 22px;
+               height: 22px;
+            }
+
+            p {
+               float: left;
+               text-align: right;
+               margin: 2px 7px;
+            }
+         }
+      }
+   }
+
+   .small-hidden {
+      display: inherit;
+
+      &.login {
+         a {
+            color: $orange !important;
+            max-height: 40px;
+
+            i {
+               font-size: 20px;
+               margin-top: -1px;
+               margin-right: 5px;
+            }
+
+            p {
+               float: right;
+            }
+         }
+      }
+   }
+
+   .large-hidden {
+      display: none;
+   }
+
+   .nav-content {
+      position: absolute;
+      top: 88px;
+      background: white;
+      width: 508px;
+      right: 158px;
+      border: 1px solid $orange;
+      z-index: 13;
+      font-weight: bold;
+      border-bottom: none;
+
+      li a {
+         border-left: 40px solid $orange;
+      }
+
+      .dropdown-menu {
+         top: 0;
+         left: 163px;
+         right: 0;
+         float: left;
+         margin: 0;
+         padding: 0;
+         border: none;
+         border-radius: 0;
+         -webkit-box-shadow: none;
+         box-shadow: none;
+         background: #eee;
+         height: 500%;
+
+         li a {
+            color: $orange;
+            padding: 10px 20px;
+            border-left: none;
+         }
+      }
+   }
+
+   .nav-1 {
+      left: 0;
+      position: relative;
+      background: $grey;
+      top: 30px;
+      width: 100%;
+      height: 58px;
+      border-bottom: 7px solid $orange;
+      padding-right: 150px;
+      z-index: 13;
+
+      li {
+         position: relative;
+         margin-right: 32px;
+         margin-top: 13px;
+         background: white;
+         float: right;
+         width: 140px;
+         text-align: center;
+         z-index: 14;
+
+         a {
+            position: relative;
+            z-index: 14;
+         }
+
+         &:after,
+         &:before {
+            width: 0;
+            content: '';
+            position: absolute;
+            margin-right: 0;
+            top: 0;
+            cursor: pointer;
+         }
+
+         &:before {
+            left: -24px;
+            border-right: 24px solid white;
+            border-bottom: 38px solid transparent;
+
+            &.first {
+               width: 30px;
+               content: '';
+               position: absolute;
+               top: 0;
+               left: -30px;
+               height: 30px;
+            }
+         }
+
+         &:after {
+            right: -24px;
+            border-left: 24px solid white;
+            border-top: 38px solid transparent;
+         }
+
+         &.active,
+         &:hover {
+            &:before {
+               border-right-color: $orange;
+            }
+
+            &:after {
+               border-left-color: $orange;
+            }
+
+            a {
+               background: $orange;
+               color: #fff;
+               cursor: pointer;
+            }
+         }
+
+         &.first {
+            margin-left: 0;
+         }
+      }
+
+      &.navbar-nav > li > a {
+         padding: 9px;
+      }
+
+      hr {
+         position: absolute;
+         height: 7px;
+         width: 162px;
+         background: white;
+         margin: 0;
+         bottom: -9px;
+         border: 1px solid white;
+         z-index: 10;
+      }
+   }
+
+   .nav-2 {
+      right: 30px;
+      width: 100%;
+      background: white;
+
+      li {
+         float: right;
+         z-index: 14;
+      }
+
+      &.navbar-nav > li > a {
+         padding: 10px;
+      }
+   }
+
+   .nav-3 {
+      display: none;
+   }
+   /* Small devices like tablets (mobiles, 320px and up) */
+   @media (max-width: 1020px) {
+      .navbar-header #typed-strings, .navbar-header #typed-standard {
+         display: none;
+      }
+
+      .navbar-brand {
+         top: -32px;
+         height: 45px;
+      }
+   }
+   /* Extra Small devices (mobiles, 320px and up) */
+   @media (max-width: 767px) {
+      .nav-bar {
+         background: $grey;
+         height: 50px;
+      }
+
+      .navbar-header {
+         .divider {
+            display: none;
+         }
+      }
+
+      .login {
+         float: right;
+         width: 50%;
+         text-align: center;
+         background: white !important;
+         font-weight: bold;
+
+         p {
+            padding-left: 10px;
+            margin: 0;
+            display: inline-block;
+         }
+
+         &:hover {
+            background: $orange !important;
+            color: white !important;
+         }
+      }
+
+      .lang-switch {
+         background: white;
+         width: 50%;
+         background: white !important;
+         color: black !important;
+         text-align: center;
+
+         p {
+            padding-right: 10px;
+            display: inline-block;
+            margin: 0;
+         }
+
+         .flag {
+            width: 20px;
+            margin-top: -3px;
+         }
+
+         &:hover {
+            background: $orange !important;
+            color: white !important;
+         }
+      }
+
+      .nav-1 {
+         height: 20px;
+         margin: 0;
+
+         li {
+            display: none;
+         }
+      }
+
+      .nav-2 {
+         top: 0;
+         margin: 0;
+      }
+
+      .navbar-brand {
+         padding: 10px;
+      }
+
+      .navbar-header {
+         right: 0;
+         left: 0;
+         padding: 0;
+         min-width: 0;
+
+         .navbar-toggle {
+            margin-top: 3px;
+         }
+      }
+
+      .small-hidden {
+         display: none;
+      }
+
+      .nav-3 {
+         margin: 0;
+         display: block;
+         position: relative;
+         z-index: 14;
+         top: 30px;
+         background: white;
+
+         li {
+            border-bottom: 1px solid $orange;
+
+            a {
+               cursor: pointer;
+               padding: 10px;
+            }
+
+            &.active,
+            &:hover {
+               a {
+                  background: $darkwhite;
+                  color: $orange;
+                  cursor: pointer;
+               }
+
+               li {
+                  border: none;
+
+                  a {
+                     background: white;
+                     padding: 6px 20px;
+                  }
+
+                  &:hover {
+                     a {
+                        background: $orange;
+                        color: white;
+                     }
+
+                     li {
+                        border: none;
+
+                        a {
+                           background: white;
+                           color: $orange;
+                        }
+
+                        &:hover {
+                           a {
+                              background: $orange;
+                              color: white;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+
+         .dropdown-menu {
+            border-bottom: 1px solid $orange !important;
+            font-size: 12px;
+
+            a {
+               padding-left: 40px !important;
+            }
+         }
+      }
+
+      .nav-content {
+         z-index: 14;
+         position: initial;
+         border-left: none;
+         width: 100%;
+         border-right: none;
+         font-size: 12px;
+         margin-bottom: -1px;
+      }
+   }
+
+   .nav-menu-info-heading {
+      font-size: 20px;
+   }
+
+   .nav-menu-info-content {
+      color: $darkgrey;
+      font-weight: normal;
+      font-size: 12px;
+      width: 80%;
+      padding: 0 0 10px;
+   }
+
+   i.nav-menu-info-icon {
+      font-size: 26px;
+      margin-right: 7px;
+   }
+
+   .nav-li-border-bottom {
+      border-bottom: 4px solid $lightgrey;
+   }
+}

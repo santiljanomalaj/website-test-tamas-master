@@ -1,0 +1,21 @@
+﻿[title]Offenen Schnittstellen für den Maschinenbau[title]
+
+[date]14.02.2016[date]
+
+[category]Software[category]
+[category]OpenSource[category]
+
+![GitHub Doku](../img/blog/openAPI.jpg)
+
+
+
+[description]
+Kaum ein Softwarehersteller im Maschinenbau macht seine Schnittstellen öffentlich.</br>
+Ein Strategie der Zurückhaltung von Wissen soll Kunden binden. In der Praxis führt die fehlende Kompatibilität zu viel manuellem Mehraufwand und zu Übertragungsfehlern.</br></br>
+
+Der Gedanke von Vernetzung und Optimierung der Produktion nach dem Motto 'Industrie 4.0' wird hierdurch behindert.</br>
+Wir glauben, dass man Kunden auch durch ein gutes Produkt binden kann, und machen daher unsere Schnittstelle öffentlich auf <a href='https://github.com/RAPIDFACTURE/openTec' title='Rapidfacture Repository auf GitHub'>GitHub.</a>
+Wir glauben auch, dass offene Schnittstellen und insbesondere Open-Source eine große Bereicherung sind.</br></br>
+
+Wir selbst setzen unsere Technologie auf Open-Source auf. Zusammenarbeit ist effektiv und man muss das Rad nicht immer wieder neu erfinden.
+[description]

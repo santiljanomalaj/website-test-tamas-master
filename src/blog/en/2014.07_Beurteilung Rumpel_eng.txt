@@ -1,0 +1,15 @@
+[title]The industrial expert Hermann Rumpel evaluates the project [title]
+
+[date]12.07.2014[date]
+
+[category]Company[category]
+
+![Rumpel Precision Technology](../img/blog/rumpel.png)
+
+
+[description]
+We found the association for turned parts on our search for reliable market statistics.</br>
+So we got in touch with Hermann Rumpel, member of the board, to evaluate our project. The project was classified as promissing but technical challenging.</br>
+The company Rumpel Precision employs 70 employees and is OEM for automotive industry and other fields of mechanical engineering.</br>
+The company bought an extra turning machine only for prototyping right now, wich is of special interest for Rapidfacture. We thank them for the feedback.
+[description]

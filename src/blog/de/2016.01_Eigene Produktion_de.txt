@@ -1,0 +1,16 @@
+[title]Die eigene Produktion startet[title]
+
+[date]19.01.2016[date]
+
+[category]Unternehmen[category]
+
+![Turning machine Traub TNA 300](../img/blog/onwProduction.jpg)
+
+[description]
+Eine Traub TNA 300 mit 22 kW Leistung ist nun unser Eigentum.</br></br>
+
+Die ersten Aufträge wurden gefertigt. Das gute Stück ist gebraucht, aber die Präzision stimmt - Toleranzen im Bereich 0,01 mm lassen sich problemlos erreichen.</br>
+Dank der angetrieben Werkzeuge können Lochkreise, Querbohrungen, Gravuren oder Schlüsselweiten hergestellt werden.</br></br>
+
+Die Maschine macht uns unabhängig von Fremdfirmen, sodass wir unsere Software besser testen und unsere Produkte schneller liefern können.
+[description]

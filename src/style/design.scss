@@ -1,0 +1,62 @@
+.design {
+
+   .page-tools{
+      padding: 35px;
+   }
+
+   .sidebar-navigation {
+      ul {
+         list-style: none;
+         padding: 0;
+      }
+
+      li {
+         font-size: 13px;
+         display: inline-block;
+         width: 100%;
+         margin: 3px 0;
+         border-bottom: 1px solid #f2f2f2;
+
+         .name {
+            width: 60%;
+            float: left;
+         }
+
+         .standard {
+            width: 40%;
+            float: left;
+            // color: grey;
+         }
+
+         h3 {
+            font-size: 18px;
+            color: #4f4f4f;
+         }
+
+         a{
+            color: grey;
+         }
+
+         a:hover{
+            color: orange;
+         }
+
+         &.active a{
+            color: orange;
+         }
+      }
+   }
+
+   .main-iframe {
+      h3 {
+         margin: 20px 0 0 20px;
+      }
+   }
+
+   .bottom-advert{
+      .btn{
+         width: 80%;
+         margin-left: 15%;
+      }
+   }
+}

@@ -1,0 +1,15 @@
+[title]System development[title]
+
+[date]17.09.2015[date]
+
+[category]Software[category]
+
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/tuaNglPd8HY?rel=0" allowfullscreen></iframe>
+
+
+[description]
+The CAM-processor is now enabled to produce radius elements and threads.</br>
+Selection handling (selecting with mouse) in the Online-CAD was revised, so that the left and right side can be selected in features like radius, hole etc..</br></br>
+
+We now start working on a live calculation.
+[description]

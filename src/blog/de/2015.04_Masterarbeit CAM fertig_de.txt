@@ -1,0 +1,22 @@
+[title]Masterarbeit zum CAM fertig[title]
+
+[date]16.04.2015[date]
+
+[category]Unternehmen[category]
+[category]Software[category]
+
+![Master Thesis automated CAM](../img/blog/Masterarbeit_Bernhard.png)
+
+
+[description]
+Die Masterarbeit zur CAM-Lösung wird an der <a href='http://www.th-nuernberg.de/' title='Homepage der TH Nürnberg'>TH Nürnberg</a> eingereicht. </br></br>
+
+Im Vorfeld durchgeführte Recherchen zur optimalen Prozessintegration vorhandener CAM-Systeme führten zur Neuentwicklung einer prozessoptimierten Lösung mit eigenem CAD-Format.</br>
+Das dahinterstehende Konzept konnte im Versuch auf der <h3>CNC-Drehmaschine</h3> eines Fertigungspartners validiert werden.</br></br>
+
+Ein besonderer Dank gilt hierbei Prof. Dipl.-Ing. K.-D. Beier für die engagierte Betreuung der Arbeit.</br></br>
+
+Die Implementierung, Weiterentwicklung und Anpassung an Produkte von Softwarepartnern stellen die Herausforderung für die kommenden Monate dar.</br>
+Für die weitere Test- und Optimierungsphase der einfachen Drehbearbeitung sowie zur Demonstration der Prozesskette wird eine kleine gebrauchte CNC-Drehmaschine angeschafft.</br> 
+Diese wird aus Mitteln des EXIST-Gründerstipendiums finanziert.
+[description]

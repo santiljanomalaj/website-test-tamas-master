@@ -1,0 +1,137 @@
+.page-app {
+
+
+   .rf-top-image-container {
+      .btn {
+         font-weight: bold;
+      }
+
+      position: relative;
+
+      .rf-top-bg-image {
+         z-index: 1;
+      }
+
+      .rf-top-left-overlay {
+         position: absolute;
+         bottom: 20%;
+         left: 15%;
+         width: 15%;
+      }
+
+      .rf-top-right-overlay-box {
+         position: absolute;
+         bottom: 20%;
+         right: 0;
+         width: 50%;
+         min-height: 170px;
+         background: $orange;
+
+         @media (max-width: 1024px) {
+            width: 80%;
+         }
+
+
+         .rf-top-right-inner-box {
+            z-index: 3;
+            position: relative;
+            background: gray;
+            width: 90%;
+            height: 100%;
+            top: -40px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin: auto 0 auto auto;
+            padding: 20px;
+         }
+      }
+   }
+
+   p{
+      margin: 0;
+   }
+
+   .phone-video-container{
+      position: relative;
+      img{
+         width: 100%
+      }
+      video{
+         position: absolute;
+         left: 5%;
+         top: 10%;
+         width: 90%;
+      }
+   }
+
+   .advantages {
+      text-align: left;
+      font-size: 18px
+   }
+
+   .rf-orange-subtitle {
+      color: $orange;
+      margin-top: 0;
+   }
+
+   .software-serv{
+      font-size: 20px;
+      color: $grey;
+   }
+
+   .rf-impact-text {
+      font-family: impactreg;
+      letter-spacing: 1px;
+   }
+
+   .see-for-yourself {
+      color: white;
+      background: $orange;
+      text-align: center;
+      font-size: 30px;
+
+      .btn {
+         padding: 15px 0;
+         width: 50%;
+
+         @media (max-width: 750px) {
+            width: 100%;
+         }
+
+         font-weight: bold;
+         height: auto;
+         color: $orange;
+         background: white;
+         border-radius: 10px;
+
+         &:hover {
+            background: $darkwhite !important;
+            opacity: 1;
+         }
+      }
+   }
+
+
+   @media (max-width: 750px) {
+
+      .rf-top-right-inner-box{
+         h1,
+         h3 {
+            font-size: 70%;
+         }
+
+         h2 {
+            font-size: 100%;
+         }
+      }
+
+
+      .divider-text,
+      .btn {
+         font-size: 16px;
+      }
+   }
+
+}

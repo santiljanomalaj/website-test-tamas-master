@@ -1,0 +1,18 @@
+[title]New hall[title]
+
+[date]05.02.2017[date]
+
+
+[category]Company[category]
+
+![New hall](../img/blog/NeueHalle.JPG)
+
+
+[description]
+The move into our new industrial hall has been successful. The machine was without electricity only for three days – careful planning is half the battle.</br></br>
+
+A conventional lathe was purchased for simpler tasks and professional deburring. Furthermore, we  have a small but fine office now. </br>
+In our pallet rack we have plenty of space for material and other equipment.
+It has become time...
+We were surprised how many things have fit in the small garage before.
+[description]

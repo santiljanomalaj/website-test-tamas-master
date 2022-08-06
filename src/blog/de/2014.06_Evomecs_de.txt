@@ -1,0 +1,27 @@
+[title]Bekanntschaft mit Evomecs[title]
+
+[date]19.06.2014[date]
+
+[category]Unternehmen[category]
+
+![Team Evomecs](../img/blog/evomecs.jpg)
+
+
+[description]
+Über das Portal <a href='http://www.mitgruender.com' title='Startseite Mitgruender.com'>Mitgruender.com</a>
+lernen wir das Startup <a href='https://www.evomecs.com' title='Evomecs - MES für flexible Fertigung'>Evomecs</a> kennen.</br>
+Schnell wird klar, dass Evomecs und Rapidfacture in Richtung 'Vernetzung der Produktion' arbeiten. </br>
+Wenngleich zwei unterschiedliche Systeme entwickelt werden, ist die Motivation für beide Vorhaben dieselbe:
+Durch die Erhöhung der Automatisierung lassen sich Schnittstellen vereinfachen oder einsparen, Fehler reduzieren und vor allem die Flexibilität steigern.</br></br>
+
+Flexibilität kann beispielsweise bedeuten, kleine Stückzahlen mit geringem Rüstaufwand herzustellen.</br>
+Die bisher in der Metallverarbeitung eingesetzten Softwareprodukte mögen zwar höchste Ansprüche an die Funktionalität erfüllen, hinken aber hinterher, wenn es um Vernetzung und Datenaustausch geht.</br>
+Dies ist nicht zuletzt der Tatsache geschuldet, dass Softwarehersteller stets versuchen, möglichst nur ihre eigenen Formate zu unterstützen, um eine hohe Kundenbindung zu erreichen.</br></br>
+
+Evomecs entwickelt eine <a href='https://de.wikipedia.org/wiki/Manufacturing_Execution_System' title='Manufacturing-Execution-System auf Wikipedia'>MES-Software</a>
+(Manufacturing-Execution System - sie bringt Fertigungsdaten an die Maschine und überprüft die Programme auf Fehler).</br>
+Grundlage des MES-Systems ist eine zentrale Datenbank, die es verschiedenen Applikationen ermöglicht, konsistent und sicher mit den Daten zu arbeiten.
+Evomecs kümmert sich beispielsweise automatisch darum, dass das NC-Fertigungsprogramm im richtigen Format zur richtigen Fertigungsmaschine gelangt.</br></br>
+
+Dieses Vorhaben ist höchst interessant für Rapidfacture; wir freuen uns auf eine Zusammenarbeit und bedanken uns für eure Unterstützung.
+[description]

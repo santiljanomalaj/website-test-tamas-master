@@ -1,0 +1,18 @@
+[title]Open interfaces for mechanical engineering[title]
+
+[date]14.02.2016[date]
+
+[category]Software[category]
+[category]OpenSource[category]
+
+![GitHub Doku](../img/blog/openAPI.jpg)
+
+[description]
+Only a few software providers in mechanical engineering make their interfaces public.</br></br>
+The reluctance of knowledge should lock customers in. This means in practice that a lack of compability leads to additional manual expense and transmission errors.</br>
+The idea of a optimized and linked production based on the idea „industry 4.0“ is blocked.</br>
+We belive that we can bind clients with good products and publish therefore our interfaces on GitHub.
+We also belive that open interfaces and in particular open source are real enrichments. </br></br>
+
+We ourself develop our technology using open source. Cooperation is effective and we do not need to reinvent the wheel.
+[description]

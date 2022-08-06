@@ -1,0 +1,50 @@
+# in each stage, jobs can run in parallel
+# here the folder in which the stages run is defined
+stages:
+  - build
+  - deploy
+
+
+# Login to docker registry
+before_script:
+  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  # - npm rebuild node-sass
+  - npm install
+
+
+# job 1: while developing
+#   * usual build
+#   * npm test
+build:
+  stage: build
+  script:
+    - grunt copy:local
+    - grunt buildDev
+    - grunt lint
+    - docker build -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME .
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+
+
+# job 2: deploy
+# this job is run only on shedule where the variable $PRODUCTION is defined
+deploy:
+  stage: deploy
+  script:
+    - grunt copy:environment-prod
+    - grunt buildProd
+    - grunt lint
+    - docker build -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME .
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+  only: # only when a condition is meet
+    variables: # more info: https://docs.gitlab.com/ee/ci/variables/
+      - $PRODUCTION
+
+
+
+# global cache
+# caching of node modules (after the build) enourmus speeds up the npm install
+# more info: https://docs.gitlab.com/ee/ci/caching/
+cache:
+  key: "erp" # name of the global storage folder
+  paths: # project paths to store
+    - node_modules/

@@ -1,0 +1,81 @@
+footer {
+   color: $midwhite;
+   font-size: 100%;
+
+   a {
+      color: $midwhite;
+      // font-size: 130%;
+      &:hover {
+          color: $orange;
+         text-decoration: underline;
+      }
+   }
+
+   .icon {
+      width: 38px;
+
+      &.logo{
+         height: 35px;
+         width: auto;
+      }
+   }
+
+   .with-padding{
+      padding: 20px 10px 10px 10px;
+      margin: 0 auto;
+      width: 80%;
+   }
+
+   .headline {
+      font-weight: bold;
+      font-size: 180%;
+   }
+
+   .top-container {
+      background-color: $grey;
+      border-bottom: 2px solid $orange;
+      padding-top: 30px;
+      min-height: 130px;
+
+      .with-padding {
+         padding-top: 30px;
+      }
+   }
+
+   .middle-container {
+      background-color: $midgrey;
+      font-size: 130%;
+      padding: 5px 0 70px;
+   }
+
+   .bottom-container {
+      background-color: $grey;
+
+
+      .address-container{
+         // font-size: 145%;
+         .email-link{
+            color: $orange;
+         }
+      }
+
+      .law-icon-container{
+         float: right;
+         .icon-container {
+            .linked-icons {
+               float: left;
+               width: 12%;
+
+               img {
+                  width:: 75%;
+               }
+            }
+         }
+
+         .law-container{
+            float: left;
+         }
+
+      }
+   }
+}

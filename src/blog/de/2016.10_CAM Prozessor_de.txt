@@ -1,0 +1,16 @@
+[title]CAM Prozessor in der Produktion[title]
+
+[date]13.10.2016[date]
+
+[category]Software[category]
+
+![CAM Prozessor](../img/blog/cam.png)
+
+
+[description]
+Wenngleich schon lang am CAM-Prozessor gearbeitet wurde, hat es aufgrund der vielen notwendigen Features lang gedauert, bis wir die Software produktiv einsetzen konnten.</br></br>
+
+Die automatische Auswahl an Prozess-Parametern und die automatische Erzeugung von Kommentaren und Prüfmaßen machen Maschinenbedienern das Leben leichter.</br></br>
+
+In den nächsten Monaten wird die NC-Programmerstellung weiter automatisiert, indem Bearbeitungsstrategien automatisch erzeugt und zugehörge Werkzeuge und Bearbeitungsparameter gesetzt werden.
+[description]

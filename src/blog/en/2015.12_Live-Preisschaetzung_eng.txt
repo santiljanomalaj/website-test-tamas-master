@@ -1,0 +1,20 @@
+[title]Live calculation, user-accounts[title]
+
+[date]06.12.2015[date]
+
+[category]Software[category]
+
+![CAD live calculation](../img/blog/priceCalculation.png)
+
+
+
+[description]
+From now on registered users can use our live price estimation.</br></br>
+
+The pricing is quite under construction but already contains a lot of parameters like material costs, precision, radius elements, features, weight and stability (over all about 50 parameters).</br>
+Optimizations regarding material, machine and process were taken into account for higher quantities.</br>
+
+User-accounts, where drawings can be saved and orders are transparent were also added. Drawings can be shared upon request.</br></br>
+
+Rapidfacture offers public CAD-templates to faciliate the introduction. The standard parts can be customized easily.
+[description]

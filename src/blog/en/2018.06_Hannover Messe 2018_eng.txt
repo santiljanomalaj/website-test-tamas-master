@@ -1,0 +1,19 @@
+[title]Hannover Messe 2018[title]
+
+[date]15.04.2018[date]
+
+
+[category]Exhibition[category]
+
+![Hannover Messe](../img/blog/HannoverMesse.JPG)
+
+
+[description]
+We are pleased to be represented again at the HANNOVER MESSE this year.</br></br>
+
+From April 23rd to April 27th 2018, Rapidfacture and other young innovative companies will be present at a joint booth within the "Digital Factory" trade show.</br></br>
+
+Would you like to visit us at the fair?</br>
+
+Then request your free trade visitor ticket right now. This allows you direct access to the exhibition ground as a permanent ticket for any day of the event.
+[description]

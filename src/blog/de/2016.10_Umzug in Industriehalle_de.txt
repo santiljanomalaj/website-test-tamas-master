@@ -1,0 +1,16 @@
+[title]Umzug in Industriehalle[title]
+
+[date]24.10.2016[date]
+
+[category]Unternehmen[category]
+
+![Umzug Halle](../img/blog/Halle.JPG)
+
+
+
+[description]
+Wir ziehen in eine Industriehalle mit 300 qm in Rohrbach an der Ilm um.</br></br>
+
+Dort ist genügend Platz zum Arbeiten und Raum für weitere Maschinen.</br>
+Unser Vorrat an Werkzeugen und unser Materiallagersind stetig gewachsen, sodass wir nun eine solide Ausstattung haben.
+[description]

@@ -1,0 +1,17 @@
+[title]We get the EXIST scholarship[title]
+
+[date]07.05.2015[date]
+
+[category]Company[category]
+
+![EXIST scholarship](../img/blog/exist.png)
+
+
+[description]
+From May on we get the EXIST scholarship.</br>
+It is granted by the Federal Ministry of Economics and Energy and supports start-ups related to universities.</br>
+The scholarship allows us to develop the project independend from investors.</br></br>
+
+Big thanks to the founders office of Friedrich-Alexander university Erlangen-Nuremberg for the capable support of our project. </br>
+Furthermore we would like to thank our mentor Prof. Dr. sc. ETHZ Alexander Hasse and the chair for construction for supervising.
+[description]

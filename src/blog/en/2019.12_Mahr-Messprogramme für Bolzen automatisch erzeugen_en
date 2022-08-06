@@ -1,0 +1,13 @@
+[title]Generate measuring programs for bolts automatically[title]
+
+[date]01.12.2019[date]
+
+[category]Software[category]
+
+![Mahr-Messmaschine](../img/blog/Mahr-Messmaschine.png)
+
+[description]
+The quality and accuracy of optical Mahr measuring machines is beyond question. A real quality product made in Germany. Possibly due to the great shortage of skilled workers, a customer was nevertheless prompted to visit us regarding the operation of the machine or the associated software. For him, the program creation took approx. 1 hour per bolt and the process could only be carried out by a certain person who is familiar with the whole.</br></br>
+
+To put it bluntly: we hadn't imagined it that to be that easy. The reverse engineered format was ready after a few days and the associated software was ready after about 2 weeks. Now a complete measuring program for bolts can be generated with 10 clicks. And because it is so nice, we also link our CAM solution to the system. After all, we want more productivity. With 11 clicks you now have a measuring program and NC program.
+[description]

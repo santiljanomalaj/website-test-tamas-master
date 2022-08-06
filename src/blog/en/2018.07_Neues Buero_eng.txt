@@ -1,0 +1,17 @@
+[title]We're moving...[title]
+
+[date]15.07.2018[date]
+
+
+[category]Company[category]
+
+![We`re moving](../img/blog/UmzugUnterschleissheim.JPG)
+
+
+[description]
+Finally more space! </br>
+Following a short phase of renovation, our new representational office in Unterschleißheim is ready for occupancy at the beginning of July.</br>
+Because of our steadily growing team it was necessary to move into a larger office to create more space for new talents and promote a work atmosphere that fosters creativity and innovation.</br></br>
+There are three more rooms now and a big conference room.</br>
+We are now enjoying the open space, new desks and a spacious kitchen for a cup of coffee or two :) .
+[description]

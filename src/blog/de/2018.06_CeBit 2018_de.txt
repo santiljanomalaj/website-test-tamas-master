@@ -1,0 +1,21 @@
+[title]CeBit 2018[title]
+
+[date]18.06.2018[date]
+
+
+[category]Messe[category]
+
+![CeBit 2018](../img/blog/CeBit.JPG)
+
+
+[description]
+Vom 11.- 15. Juni 2018 fand in diesem Jahr die CeBit Messe statt.</br></br>
+Sie präsentierte sich in diesem Jahr in einem neuen Kleid: Mehr Business-Festival und weniger IT-Messe.
+Innovation und Digitalisierung standen dabei im Vordergrund, mit Konzerten, Konferenzen und Networking.</br></br>
+
+Die Verbindung von Business und Emotionen konnten wir, von Rapidfacture, durch einen Vortrag auf der StartUp-Stage gut umsetzen.
+Joshua Simon, Rapidfacture-Mitarbeiter im Bereich Business Development, hat unser Unternehmen auf Europas größten StartUp-Plattform Scale11 präsentiert und vor Investoren, Entscheidern großer Unternehmen und kreativen Köpfen gesprochen.</br></br>
+
+Wir freuen uns, dass eine Plattform dieser Art für junge Unternehmen angeboten wird und greifen auch im nächsten Jahr wieder darauf zurück.
+
+[description]

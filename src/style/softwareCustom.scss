@@ -1,0 +1,208 @@
+.software-custom {
+   .page.index {
+      position: relative;
+      padding: 0;
+      width: 100%;
+      overflow: hidden;
+
+      .content {
+         width: 100%;
+         opacity: 0.95;
+         position: absolute;
+         left: 0;
+         top: 45%;
+         text-align: center;
+         background: $activeGrey;
+         @include box-shadow(0px, 3px, 5px, 0px, rgba(0, 0, 0, 0.5));
+
+         h2 {
+            color: #e1fdff;
+            font-size: 300%;
+            font-weight: bold;
+         }
+      }
+   }
+   /* ----------------------- NEW CSS ----------------------- */
+   h5 {
+      margin-top: 5px;
+      margin-bottom: 20px;
+      color: $orange;
+      font-size: 18px;
+   }
+
+   .software-text {
+      span {
+         color: $orange;
+         font-weight: bold;
+      }
+   }
+
+   .software-services {
+      hr {
+         margin-top: 50px;
+
+         &.contact {
+            margin-top: 0;
+         }
+      }
+   }
+
+   .recommendation {
+      font-style: italic;
+      font-size: 16px;
+   }
+
+   .recommendated-from {
+      // text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+   }
+
+   .btn-grey {
+      float: right;
+      background: $lightgrey;
+      color: $orange;
+      width: 120px;
+      height: 30px;
+      line-height: 18px;
+      border-radius: 0;
+   }
+
+   .divider-head {
+      color: $orange;
+      margin-left: 0;
+      font-family: impact;
+   }
+
+   .software-serv {
+      padding-left: 35px;
+
+      ul {
+         &.padded-list {
+            padding-left: 20px;
+            list-style-type: disc;
+         }
+      }
+   }
+
+   .logo-container {
+      margin: 0 -15px;
+   }
+
+   .container ul {
+      padding-left: 0;
+      list-style-type: none;
+      font-size: 16px;
+
+      &.calc {
+         padding-left: 10px;
+         list-style-type: disc;
+
+         li {
+            margin-left: 60px;
+            padding-bottom: 3px;
+         }
+      }
+   }
+
+   .calculator {
+      display: inline-block;
+      width: 100%;
+      background: $lightgrey;
+      padding: 15px;
+
+      span {
+         color: $orange;
+         font-weight: bold;
+      }
+   }
+
+   img {
+      &.checkmark {
+         width: 30px;
+         height: 30px;
+         margin: 10px 15px 10px 0;
+      }
+
+      &.technologie-logo {
+         text-align: center;
+         width: 12%;
+         padding: 20px;
+         @media (min-width: 768px) and (max-width: 1199px) {
+            padding: 10px;
+         }
+         @media (min-width: 450px) and (max-width: 767px) {
+            padding: 20px;
+            width: 24%;
+         }
+         @media (max-width: 449px) {
+            padding: 35px;
+            width: 48%;
+         }
+      }
+
+      &.calc {
+         max-width: 280px;
+         max-height: 30px;
+         margin-bottom: 4px;
+      }
+
+      &.calculation-img {
+         border: 1px solid $lightgrey;
+      }
+   }
+
+   .references {
+      padding: 25px;
+      background: $lightgrey;
+   }
+
+   .label {
+      background-color: $orange;
+      color: white;
+      padding: 19px;
+      text-align: center;
+      font-size: 20px;
+   }
+
+   .title {
+      color: $orange;
+      font-size: 40px;
+   }
+
+   .grey-input {
+      background: $lightgrey;
+      border: 2px solid grey;
+   }
+
+   .page-contact {
+      position: relative;
+      background: $lightgrey;
+      border-top: 7px solid $orange;
+
+      h3 {
+         padding-left: 15px;
+      }
+
+      h3,
+      h4 {
+         color: $midgrey;
+      }
+   }
+
+   .btn,
+   input,
+   textarea {
+      border-radius: 0;
+   }
+
+   .borderbox {
+      border-left: 15px solid $orange;
+      padding: 0 0 0 35px;
+      margin: 1em;
+
+      .imagebox-small {
+         width: 250px;
+      }
+   }
+}

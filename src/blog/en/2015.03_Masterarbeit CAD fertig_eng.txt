@@ -1,0 +1,20 @@
+[title]Finalized master thesis regarding Online-CAD[title]
+
+[date]11.03.2015[date]
+
+[category]Company[category]
+[category]Software[category]
+
+
+![Master Thesis Online-CAD](../img/blog/Materarbeit_Felix_Titelbild.png)
+
+
+
+[description]
+To develop the project on a solid base, the both founders Felix Furtmayr and Bernhard Roemer dedicated their master thesis this project.</br></br>
+
+The thesis regarding the Online-CAD is submitted. It figures out the CAD concept and contains massive research about JavaScript frameworks (MVC, SVG, WebGL …) and other web technologies.</br>
+Furthermore a small prototype was implemented. Further implementation along the project will be based on the outcome of this thesis.</br></br>
+
+Many thanks to the chair of production automation and production systematology (FAPS) at FAU Erlangen where the thesis was supervised.
+[description]

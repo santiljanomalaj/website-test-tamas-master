@@ -1,0 +1,13 @@
+[title]CAM-processor in production[title]
+
+[date]13.10.2016[date]
+
+[category]Software[category]
+
+![CAM-processor](../img/blog/cam.png)
+
+[description]
+Although the work on the CAM-processor started long time ago, the need of many different features slowed development.</br>
+Things like automatic choosing of fits and the automatic creation of comments and check sizes make life so much easier for machine workers.</br>
+The creation of NC-programs will be further automated through generation of processing strategies and choosing tools and process parameters.
+[description]

@@ -1,0 +1,40 @@
+rf-contact-felix{
+   color: $midgrey;
+
+   img, span{
+      float: left;
+   }
+
+   img.contact{
+      width: 40%;
+   }
+
+
+   @media (min-width: 768px) and (max-width: 991px) {
+      display: block;
+   }
+   @media (max-width: 767px) {
+      margin: 0 0 20px 20px;
+   }
+   @media (max-width: 429px) {
+      display: block;
+   }
+
+   a {
+      color: $midgrey;
+
+      &:hover {
+         color: $orange;
+      }
+
+      &.phone {
+         border-bottom: 2px solid $orange;
+         padding-bottom: 11px;
+      }
+   }
+
+   span{
+      padding-left: 15px;
+   }
+
+}

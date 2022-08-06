@@ -1,0 +1,21 @@
+[title]Acquaintance with Evomecs[title]
+
+[date]19.06.2014[date]
+
+[category]Company[category]
+
+![Team Evomecs](../img/blog/evomecs.jpg)
+
+
+
+[description]
+We got in touch with the start-up Evomecs at mitgruender.com.</br>
+We figured out quickly that both start ups, Evomecs and Rapidfacture, work on the linked production.</br>
+Even if two different systems were developed, the motivation for both projects is the same: Interfaces can be simplified or cut off, failures reduced and flexibility raised with increasing automation.</br>
+Flexibility can mean to produce low quanities with less set up costs. Actual software tools in metal processing might meet highest demands in functionality but got massive lag in linking and data exchange.</br>
+This is due to the fact that software companies try to bind customers to their product by supporting only their file format.</br></br>
+Evomecs develops MES software (Manufacturing-Execution System – it transfers processing data to the machine and evaluates machining programs).
+Core of the MES system is a central database which allows several applications to work with the data in a consistend and safe manner.</br>
+Evomecs automatically transfers the programms in the right format to production machines. This project is of high interest for Rapidfacture;
+we are looking forward to working together and thank them for supporting us.
+[description]

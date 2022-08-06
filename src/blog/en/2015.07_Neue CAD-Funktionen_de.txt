@@ -1,0 +1,15 @@
+[title]New CAD functions[title]
+
+[date]09.07.2015[date]
+
+[category]Software[category]
+
+![CAD features](../img/blog/cadNewFeatures.png)
+
+
+[description]
+The structure of our Online-CAD was revised and an „undo“ function integrated.</br></br>
+The second view „edges/faces“ was implemented. From now on inner contours can be defined. Circle elements were added. Threads, knurlings and surface quality features were added to the tab „edges/faces“.</br>
+Furthermore a frame for system messages was integrated. Simple shafts, screws, connectors or bolts can be designed with the actual features.</br>
+Features like bore circle or milling operations will come up next.
+[description]

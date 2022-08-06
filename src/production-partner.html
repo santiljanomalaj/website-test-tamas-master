@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html class="homepage clearfix" ng-app="homepage" itemscope itemtype="https://schema.org/WebApplication">
+
+<head>
+   <!-- build:section layout.head -->
+   <!-- /build -->
+   <link rel="alternate" hreflang="de" href="https://www.rapidfacture.com/de/production-partner.html" />
+   <link rel="alternate" hreflang="en" href="https://www.rapidfacture.com/en/production-partner.html" />
+
+   <meta name="description" content="[[META_DESCRIPTION_aboutUs]]">
+   <meta name="keywords" content="[[META_KEYWORDS_aboutUs]]">
+
+   <title>[[rapidfactureAboutUs]]</title>
+</head>
+
+<body class="manufacture " ng-controller="contactController">
+   <!-- build:section recursive layout.nav -->
+   <!-- /build -->
+
+   <div class="content-container margin-nav">
+      <img class="intro-img" src="img/roboterarm.jpg" alt="about">
+
+      <a id="production-partners"></a>
+
+      <div class="rf-page-divider divider-big">
+         <div class="divider-text">[[becomeManufacturingPartner]]</div>
+      </div>
+      
+      <div class="manufacture-partners">
+         <div class="container">
+
+            <div class="row">
+               <h3>[[ManufacturingPartnerDescriptionHead]]</h3>
+               <p>[[ManufacturingPartnerDescription]]</p>
+               <br>
+               <h3 class="orange">
+                  [[ManufacturingYourAdvantages]]
+               </h3>
+               <br>
+               <ul class="advantages">
+                  <li>
+                     <img class="checkmark" src="./img/checkmark.svg" alt="check">
+                     <h4>[[manufacturingAdvantagesHead1]]</h4>
+                     <p>[[manufacturingAdvantagesText1]]</p>
+                  </li>
+                  <li>
+                     <img class="checkmark" src="./img/checkmark.svg" alt="check">
+                     <h4>[[manufacturingAdvantagesHead2]]</h4>
+                     <p>[[manufacturingAdvantagesText2]]</p>
+                  </li>
+                  <li>
+                     <img class="checkmark" src="./img/checkmark.svg" alt="check">
+                     <h4>[[manufacturingAdvantagesHead3]]</h4>
+                     <p>[[manufacturingAdvantagesText3]]</p>
+                  </li>
+                  <li>
+                     <img class="checkmark" src="./img/checkmark.svg" alt="check">
+                     <h4>[[manufacturingAdvantagesHead4]]</h4>
+                     <p>[[manufacturingAdvantagesText4]]</p>
+                  </li>
+               </ul>
+            </div>
+
+            <br>
+
+            <div class="manufacture-become-partner">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <h3>[[newWays]] [[u2?]]</h3>
+                  </div>
+               </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="row">
+
+               <div class="col-xs-12 col-sm-6">
+                  <h4 class="orange">[[ManufacturingOurRequirements]]</h4>
+                  <ul class="requirements-and-service-range">
+                     <li>[[ManufacturingOurRequirementsText1]]</li>
+                     <li>[[ManufacturingOurRequirementsText2]]</li>
+                     <li>[[ManufacturingOurRequirementsText3]]</li>
+                  </ul>
+               </div>
+
+               <div class="col-xs-12 col-sm-6">
+                  <h4 class="orange">[[ManufacturingYourServiceRange]]</h4>
+                  <ul class="requirements-and-service-range">
+                     <li>
+                        <p>[[ManufacturingYourServiceRangeHead1]]</p>
+                        [[ManufacturingYourServiceRangeText1]]
+                     </li>
+                     <li>
+                        <p>[[ManufacturingYourServiceRangeHead2]]</p>
+                        [[ManufacturingYourServiceRangeText2]]
+                     </li>
+                     <li>
+                        <p>[[ManufacturingYourServiceRangeHead3]]</p>
+                        [[ManufacturingYourServiceRangeText3]]
+                     </li>
+                  </ul>
+               </div>
+
+            </div>
+
+            <br>
+
+            <div class="row">
+               <h3 class="orange">
+                  [[becomeManufacturingPartnerIn4Steps]]
+               </h3>
+
+               <hr><br>
+
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                  <ul class="become-partner">
+                     <li>[[becomeManufacturingPartnerIn4Steps1]]</li>
+                     <li>[[becomeManufacturingPartnerIn4Steps2]]</li>
+                     <li>[[becomeManufacturingPartnerIn4Steps3]]</li>
+                     <li>[[becomeManufacturingPartnerIn4Steps4]]</li>
+                  </ul>
+               </div>
+
+               <div class="col-xs-12 col-md-6 col-lg-8">
+                  <div class="page-contact form" ng-controller="contactController">
+                     <div class="request">
+                        <form class="contact-form" id='contact-form' name='contactform' novalidate
+                           ng-class="{validate: validate}">
+                           <fieldset>
+                              <div class="row">
+
+                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input id="name" name="NAME" placeholder="[[name]] *" ng-model="message.name"
+                                       class="form-control" type="text" ng-maxlength="50" required />
+                                    <br />
+                                 </div>
+
+                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input id="company" name="COMPANY" placeholder="[[company]] *"
+                                       ng-model="message.company" class="form-control" type="text" ng-maxlength="50"
+                                       required />
+                                    <br />
+                                 </div>
+
+                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input id="phone" name="PHONE" placeholder="[[yourPhone]] *"
+                                       ng-model="message.phone" class="form-control" type="text" ng-maxlength="50"
+                                       required />
+                                    <br />
+                                 </div>
+
+                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <input id="email" name="EMAIL" placeholder="[[yourEmail]] *"
+                                       ng-model="message.email" class="form-control" type="email"
+                                       ng-valid="/^[a-zA-Z0-9!#$%'*+=?^_`{|}~.-]+[@][a-z0-9-_]+[\.][a-z0-9-]+$/"
+                                       ng-minlength="5" ng-maxlength="50" required />
+                                    <br />
+                                 </div>
+
+                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <textarea id="message" ng-model="message.message" placeholder="[[yourMessage]] *"
+                                       class="message form-control" required></textarea>
+                                    <br />
+                                 </div>
+
+                                 <div class="col-xs-6">
+                                    <div id="request-now" ng-click="sendContact()" class="btn rf-btn form-control">
+                                       <span>[[send]]</span>
+                                    </div>
+                                 </div>
+
+                                 <div class="col-xs-6 required-info">
+                                    [[allMarkedAreMandatory]]
+                                 </div>
+
+                              </div>
+                              <div class="privacy-info">
+                                 <i class="glyphicon glyphicon-lock"></i><span>[[privacyInfo]] <a
+                                       href="privacy-policy.html">[[privacyPolicy]]</a>.</span>
+                              </div>
+
+                           </fieldset>
+                        </form>
+                     </div>
+
+                     <div ng-show="sendComplete">
+                        <br>
+                        <br>
+                        <div class="alert alert-success emit" ng-class="{showmessage: sendComplete === true}"
+                           role="alert">
+                           [[messageSent]]
+                        </div>
+                     </div>
+                     <div ng-show="sendError">
+                        <br>
+                        <br>
+                        <div class="alert alert-danger emit" ng-class="{showmessage: sendError === true}" role="alert">
+                           [[messageError]]
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+
+
+      <!-- build:section recursive layout.footer -->
+      <!-- /build -->
+
+   </div>
+</body>
+
+</html>

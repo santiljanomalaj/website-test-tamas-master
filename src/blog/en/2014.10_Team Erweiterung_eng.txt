@@ -1,0 +1,18 @@
+[title]Team expansion[title]
+
+[date]22.10.2014[date]
+
+[category]Team[category]
+
+![Team extension](../img/blog/messePaulFalk.png)
+
+
+[description]
+We met Paul Mayer and Falk Michel at mitgruender.com.</br>
+Both have already worked on several projects.</br></br>
+They bring personal qualities which were essential for start-ups: entrepreneurial spirit, inventsiveness, learning ability and humour.</br>
+It is a big pleasure to include both into our team. Falk and Paul have a good sense for design an usability – they will work on the frontend development.</br>
+The picture was taken at our visit of Molding Expo 2015.</br></br>
+
+From left to right: Falk Michel, Paul Mayer and Bernhard Roemer.
+[description]

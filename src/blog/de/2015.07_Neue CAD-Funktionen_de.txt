@@ -1,0 +1,18 @@
+[title]Neue CAD-Funktionen[title]
+
+[date]09.07.2015[date]
+
+[category]Software[category]
+
+![CAD Funktionen](../img/blog/cadNewFeatures.png)
+
+
+[description]
+Die Struktur des <a href='http://cad.rapidfacture.com' title='RAPIDFACTURE Online-CAD starten'> Online-CAD </a> wurde überarbeitet und eine 'Bearbeiten Rückgängig' Funktion eingebaut.</br>
+Die zweite Ansicht 'Kanten/Flächen' wurde implementiert.</br>
+Ab jetzt kann außerdem einen Innenkontur erstellt werden. Konturen können nun auch Kreise enthalten.</br>
+Im Tab Kanten/Flächen sind Gewinde, Rändelung und Oberflächengüte hinzugekommen. </br></br>
+
+Des Weiteren wurden ein System für Benachrichtigungen integriert.</br>
+Mit dem bisherigen Funktionsumfang lassen sich einfache Wellen, Schrauben, Buchsen oder Bolzen zeichnen. Bearbeitungen wir Bohrungen und Fräsungen werden folgen.
+[description]

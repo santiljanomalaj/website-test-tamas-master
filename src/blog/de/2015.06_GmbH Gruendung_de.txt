@@ -1,0 +1,21 @@
+[title]GmbH Gründung und Launch der Plattform[title]
+
+[date]05.06.2015[date]
+
+[category]Unternehmen[category]
+
+![Gründung](../img/blog/launch.png)
+
+
+[description]
+Endlich ist es soweit - wir Gründen die <a href='http://www.online-handelsregister.de/handelsregisterauszug/by/Ingolstadt/R/Rapidfacture+GmbH/2168713' title='zum Handelsregister'>Rapidfacture GmbH</a>.</br></br>
+
+Ein großer Berg an Arbeit (Gründung, Rechtliche Angelegenheiten sowie Bürokratie mit dem Stipendium) ist glücklicherweise überwunden und man kann sich wieder der eigentlichen Wertschöpfung widmen. </br></br>
+
+Seit Beginn des Projekts haben alle Beteiligten viel Erfahrungen gesammelt, was sich in einer schnelleren und effizenteren Arbeitsweise widerspiegelt.</br>
+Die kleine CNC-Drehmaschine, die dem Test der Automatisierungssoftware sowie der Vorführung des Systems dient, ist bei uns eingetroffen.</br>
+Die Plattform geht zum Monatsende online. Bisher ist der Funktionsumfang gering, die Applikation wird aber stetig erweitert werden.</br></br>
+
+Wir freuen uns auf die ersten Bestellungen und auf Feedback, um die Plattform in die richtige Richtung weiterzuentwicklen.</br>
+Wir suchen weitere Partnerfirmen und Geldgeber.
+[description]

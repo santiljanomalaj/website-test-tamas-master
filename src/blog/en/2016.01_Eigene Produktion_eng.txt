@@ -1,0 +1,16 @@
+[title]We are starting our own production[title]
+
+[date]19.01.2016[date]
+
+[category]Company[category]
+
+![Turning machine Traub TNA 300](../img/blog/onwProduction.jpg)
+
+
+[description]
+A Traub TNA 300 with power of 22 kW is now our own and first orders were produced.</br>
+The machine is used but precission is right – tolerances of 0.01mm are no problem.</br></br>
+
+Thanks to driven tools bore circles, cross holes, engravings or wrench sizes can be produced.</br>
+The machine makes us independent from other production companies so the software can better tested and goods faster delivered.
+[description]

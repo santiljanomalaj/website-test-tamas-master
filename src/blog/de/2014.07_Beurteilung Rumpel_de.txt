@@ -1,0 +1,21 @@
+[title]Beurteilung des Vorhabens durch den Branchenexperten Hermann Rumpel[title]
+
+[date]12.07.2014[date]
+
+[category]Unternehmen[category]
+
+![Rumpel Präzisionstechnik](../img/blog/rumpel.png)
+
+
+
+[description]
+Auf unserer Suche nach belastbaren statistischen Marktzahlen stoßen wir auf den <a href='http://www.drehteileverband.de/' title='Homepage Drehteileverband'>Drehteileverband</a>.</br></br>
+
+Wir nehmen daraufhin direkten Kontakt zu Hermann Rumpel, einem der Vorstandsmitglieder, auf, um unser Vorhaben beurteilen zu lassen.</br>
+Das Vorhaben wird als erfolgsversprechend, wenngleich technisch herausfordernd eingestuft.</br></br>
+
+Die Firma <a href='http://www.rumpel.com/deutsch/frame1_unternehmen.htm' title='Rumpel Präszision'>Rumpel Präszision</a> beschäftigt etwa 70 Mitarbeiter und ist Zulieferer für die Automobilindustrie und für andere Bereiche des Maschinenbaus.</br></br>
+
+Interessant für Rapidfacture ist, dass die Firma gerade eine Drehmaschine zur Fertigung von Prototypen angeschafft hat. </br>
+Wir bedanken uns für das Feedback zum Vorhaben.
+[description]

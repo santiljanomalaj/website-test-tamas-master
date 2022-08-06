@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="homepage clearfix" ng-app="homepage" itemscope itemtype="https://schema.org/WebApplication">
+
+<head>
+   <!-- build:section layout.head -->
+   <!-- /build -->
+   <link rel="alternate" hreflang="de" href="https://www.rapidfacture.com/de/jobs.html" />
+   <link rel="alternate" hreflang="en" href="https://www.rapidfacture.com/en/jobs.html" />
+
+   <meta name="description" content="[[META_DESCRIPTION_contact]]">
+   <meta name="keywords" content="[[META_KEYWORDS_contact]]">
+
+   <title>[[rapidfactureContactYourPartnerOnline]]</title>
+</head>
+
+<body class="jobs" ng-controller="jobsController as ctrl">
+   <!-- build:section recursive layout.nav -->
+   <!-- /build -->
+
+   <div class="content-container margin-nav">
+      <img class="intro-img" src="img/office.jpg" alt="about">
+      <a id="contact-person"></a>
+      <div class="contact-divider rf-page-divider">
+         <div class="divider-text">[[Jobs&Career]]</div>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12" style="text-align: center">
+               <h2>[[Jobs&CareerHeading]]</h2>
+            </div>
+            <!-- <div class="col-md-offset-2 col-md-8">
+               <img src="img/team/team.jpg" />
+            </div> -->
+         </div>
+
+         <br>
+
+         <div class="jobs-positions">
+
+            <div class="row  border-container" ng-if="jobList.length == 0">
+               [[currentlyNoJobsAvailable]]
+            </div>
+
+            <div class="row  border-container" ng-repeat="position in jobList">
+               <div class="row job-heading-color" ng-class="{'headColor': tabExpanded}">
+                  <div class=" col-sm-8 col-md-9 col-lg-10">
+                     <span class="global-color">
+                        {{position[lang].OpenPositionHeading}}</span><br>
+                     {{position[lang].OpenPositionDescription}}
+                  </div>
+
+                  <div class="col-sm-4 col-md-3 col-lg-2" ng-click="tabExpanded =! tabExpanded">
+                     <button type="button" class="btn rf-btn"
+                        style="padding: 5px 50px ;  border-radius: 0;  cursor: pointer ">
+                        <div ng-hide="tabExpanded">
+                           [[JobOffer]]
+                        </div>
+                        <div ng-show="tabExpanded">
+                           [[close]]
+                        </div>
+                     </button>
+                  </div>
+               </div>
+
+               <div class="col-md-12 job-full-description-container" ng-class="{'expanded': tabExpanded}">
+                  <br>
+                  <div class="col-md-5">
+                     <div class="global-color">
+                        [[jobsAboutUs]]
+                     </div>
+                     <div class="row jobs-about-us">
+                        [[jobsAboutUsDescription]]
+                     </div>
+                     <br>
+                     <div class="global-color">
+                        [[jobsWhatWeOffer]]
+                     </div>
+                     <hr>
+                     [[jobsWhatWeOfferDescription]]
+                  </div>
+                  <div class="col-md-offset-1 col-md-5">
+                     <div class="global-color">
+                        [[yourTask]]
+                     </div>
+                     <hr>
+                     <ul>
+                        <li>{{position[lang].YourTask1}}</li>
+                        <li>{{position[lang].YourTask2}}</li>
+                        <li>{{position[lang].YourTask3}}</li>
+                        <li>{{position[lang].YourTask4}}</li>
+                     </ul>
+                     <br>
+                     <div class="global-color">
+                        [[YourQualification]]
+                     </div>
+                     <hr>
+                     <ul>
+                        <li>{{position[lang].YourQualification1}}</li>
+                        <li>{{position[lang].YourQualification2}}</li>
+                        <li>{{position[lang].YourQualification3}}</li>
+                     </ul>
+
+
+                  </div>
+                  <div class="row bottom col-md-12">
+                     <a href="#apply-now">
+                        <br>
+                        <button class="btn rf-btn apply-btn">
+                           [[ApplyNow]]
+                        </button>
+                     </a>
+                  </div>
+
+               </div>
+
+
+            </div>
+
+         </div>
+
+      </div>
+
+
+      <div class="container application-box" id="apply-now">
+         <br>
+         <div class="row">
+            <div class="col-xs-12 col-sm-5">
+               <rf-contact-felix></rf-contact-felix>
+            </div>
+            <div class="col-md-offset-1 col-md-6 info-text">
+               <h4>[[jobcontactheading1]]</h4>
+               [[jobcontactdescription1]]
+               <br>
+               <br>
+               <h4>[[jobcontactheading2]]</h4>
+               [[jobcontactdescription2]]
+            </div>
+         </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      <!-- build:section recursive layout.footer -->
+      <!-- /build -->
+
+   </div>
+</body>
+
+</html>

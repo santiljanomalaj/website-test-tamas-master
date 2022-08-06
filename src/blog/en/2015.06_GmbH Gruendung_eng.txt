@@ -1,0 +1,21 @@
+[title]Founding Rapidfacture GmbH and platform launch[title]
+
+[date]05.06.2015[date]
+
+[category]Company[category]
+
+![Founding](../img/blog/launch.png)
+
+
+[description]
+Finaly the time has come – we establish Rapidfacture GmbH.</br></br>
+
+A massive workload (founding, legal assessment as well as bureaucracy regarding our scholarship) is done and we can work on our product again.</br></br>
+
+From the beginning of the project on all team members gathered a lot of experience which can be seen in faster and more efficiant processes.</br>
+The small CNC turning machine, wich is required for testing and demonstration arrived.</br>
+The platform will be online until the end of this month. The scope of functions is quite low but will increase.</br></br>
+
+We are looking forward for the first orders and feedback to develop the platform in the right direction.</br>
+We are still looking for partner companies and investors.
+[description]

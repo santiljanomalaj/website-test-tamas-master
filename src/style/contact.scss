@@ -1,0 +1,99 @@
+
+.contact {
+  &-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &-conect{
+    padding-bottom: 15px;
+  }
+  &-icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+  }
+  &-day{
+    display: inline-flex;
+    width: 100%;
+    padding: 15px 0;
+    justify-content: space-between;
+  }
+  &-map{
+    padding: 15px 0;
+    height: 400px;
+  }
+  &-form{
+    padding-top: 15px;
+  }
+  &-person{
+    padding: 15px 0;
+  }
+  &-field{
+    padding: 0 0 20px;
+    & .form-control{
+      height: 45px;
+      border-radius: 0;
+      background-color: #EFEFEF;
+      border-color: #EFEFEF;
+      outline: none;
+      &:focus{
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.027), 0 0 8px rgba(22, 22, 22, 0.6);
+      }
+    }
+    & .message{
+      height: 150px;
+      resize: none;
+    }
+  }
+  &-social{
+    &-icon{
+      height: inherit;
+      width: inherit;
+    }
+    &-link{
+      margin-right: 10px;
+      height: 25px;
+      width: 25px;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+.bold-float{
+  font-weight: bold;
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px
+}
+.text-center{
+  text-align: center;
+}
+
+@media  (max-width: 991px) {
+  .contact {
+    &-day{
+      width: 50%;
+      padding-right: 15px;
+    }
+    &-conect{
+      padding: 7px 0;
+    }
+  }
+}
+@media (max-width: 479px) {
+  .contact {
+    &-person{
+      padding: 15px 0;
+      &-img{
+        padding-right: 0;
+      }
+    }
+    &-day{
+      width: 75%;
+      padding-right: 0;
+    }
+  }
+}

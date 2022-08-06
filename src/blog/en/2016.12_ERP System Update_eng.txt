@@ -1,0 +1,16 @@
+[title]ERP-system update[title]
+
+[date]09.12.2016[date]
+
+[category]Software[category]
+
+![ERP update](../img/blog/erp.png)
+
+
+[description]
+Our ERP system is currently redesigned and will be ready to sell at the end of the year.</br></br>
+Much experience over process-flows and their digital representation could be collected this year.</br>
+The ERP-system includes the administration of customers (inclusive CRM), orders and drawings.
+The administration of machines, tools and materials is planned as well.
+Easy use is ensured through careful selection of features and modular structure."
+[description]

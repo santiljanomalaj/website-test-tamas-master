@@ -1,0 +1,17 @@
+[title]CeBit and Hannover Messe[title]
+
+[date]12.04.2017[date]
+
+
+[category]Exhibition[category]
+
+![CeBit 2017](img/blog/messe2.png)
+
+[description]
+"In March we showed our innovations at the CeBit again and in April at the Hannover Messe.</br></br>
+
+While the interest was as great as in the previous year, we were proud to show new parts of our software we had made since than last year.</br>
+In addition to company contacts, we have noted that there is at least one good potential employee at every fair.</br></br>
+
+Now we can count the start-up "Konstruktiv Berlin" https://konstruktiv-berlin.de/kontakt/to to our circle of friends :-)"
+[description]

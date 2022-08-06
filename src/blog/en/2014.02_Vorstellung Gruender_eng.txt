@@ -1,0 +1,23 @@
+[title]The founders introduce themselves[title]
+
+[date]02.02.2014[date]
+
+[category]Company[category]
+[category]Team[category]
+
+![Founders](../img/blog/Gruender.JPG)
+
+[description]
+Felix Furtmayr (currently 26) works on organisation and commercial management at Rapidfacture. Due to his family background he is familiar with entrepreneurship.</br>
+His fahter and mother were self-employed in IT. He is the head of CAD-system development at Rapidfacture.</br>
+Based on his affinity to craft and technology he decided to study engineering after Abitur. He completed his Bachelor of Engineering at TH Ingolstadt with main focus on construction and development.
+During his internship at the gearwheel manufacturer WMH-Herion he raised his skills in production, construction, CAD-systems and calculation tools.
+From 2013 to 2015 he passed postgraduate studies in mechatronics at FAU Erlangen-Nuremberg with focus on „production automation and plastics technology“ as well as „electronic components, circuits and systems“.
+His knowledge in the fields of automation, electronic, computer science and tooling machines was supplimented and became a solid base for a project which combines mechanical engineering with computer science.</br></br>
+
+Bernhard Römer (currently 31) takes over the technical direction. His tasks were logistic optimation and development of production software.</br>
+He worked for five years in the field of steam turbine production and service after his job training as lathe operater.
+He achieved the second place in the competition „Lathe operator of the year“ in 2008. It was followed by a further education to become a state certified technician.
+The bachelor studies were completed at TH Ingolstadt with main focus on production and logistics.
+The following master studies with focus on construction and development were accomplished in the beginning of 2015. Master project and master thesis were used for research in CAD and CAM.
+[description]

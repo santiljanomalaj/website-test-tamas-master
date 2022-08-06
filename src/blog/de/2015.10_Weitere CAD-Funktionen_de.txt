@@ -1,0 +1,20 @@
+[title]Weitere CAD-Funktionen[title]
+
+[date]02.10.2015[date]
+
+[category]Software[category]
+
+![CAD 3D-Ansicht](../img/blog/cad3dView.png)
+
+
+
+[description]
+Die Arbeit an einem Benutzerkonto für das CAD hat begonnen. </br></br>
+
+Die Konturerstellung wurde verbessert: Einzelnen Konturelemente lassen sich nun per Maus verschieben, sodass sich die Kontur leicht umgestalten lässt. </br></br>
+
+Außerdem wurde die Implementierung einer 3D-Ansicht begonnen; die Ansicht kann in der rechten Sidebar getestet werden.</br>
+Es besteht hierbei die Möglichkeit, eine STL-Datei zu exportieren. </br>
+Radien/Fasen und Freistiche stehen als neue Bearbeitungen unter
+<a href='http://cad.rapidfacture.com/#/de/edgeFace/radiusChamfer' target='_blank' title='RAPIDFACTURE Online-CAD, Katen/Flächen'>Kanten/Flächen</a> zur Verfügung.
+[description]

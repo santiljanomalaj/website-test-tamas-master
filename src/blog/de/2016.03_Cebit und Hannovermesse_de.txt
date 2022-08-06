@@ -1,0 +1,18 @@
+[title]Messen[title]
+
+[date]02.03.2016[date]
+
+[category]Messe[category]
+
+![CeBit 2016](../img/blog/Cebit16.png)
+
+
+[description]
+Wir sind als Aussteller auf der CeBit und auf der Hannover Messe für industrielle Technologie.</br></br>
+
+Noch vor 2 Jahren konnte sich kaum eine Produktionsfirma für unsere Idee begeistern und es bestanden viele Zweifel an der Umsetzbarkeit. Der Spieß hat sich nun umgedreht.</br></br>
+
+Auf den Messen gibt es regen Zuspruch für unser System. Einige Firmen sind daran interessiert, für uns zu fertigen; andere möchten unsere Software kaufen.</br></br>
+ 
+Wir nehmen das Feedback mit in unserer Produktentwicklung auf, feilen weiter am Konzept und bringen die Software voran.
+[description]

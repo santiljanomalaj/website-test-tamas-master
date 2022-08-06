@@ -1,0 +1,46 @@
+//global colors //////////////////////////////////
+
+// black - grey - white
+$midwhite: #fcfcfc;     // background color
+$darkwhite: #f0f0f0;    // background color
+$lightgrey: lightgray;  // border color
+$midgrey: grey;         // background color
+$activeGrey: #70747a;
+$grey:  #545454;        // background color
+$darkgrey: #282630;     // background color
+
+
+
+// orange/yellow
+//$orange: #f47721;
+$orange: rgb(244, 119, 33);
+$blue: rgb(40, 38, 48);
+
+$darkyellow: #d08d31;
+$yellow: #FFBD00;
+$darkred: #a53f3f;
+
+// blue
+$lightblue: #68baf2;
+//$blue: #0b88de;
+
+// fields
+$invalid: red;
+$valid: #d7fa96;
+$untouched: #fff;
+
+//global resolution variables //////////////////////////////////
+
+// IPAD NORMAL SIZE
+$screen-sm-min: 1024px; //768px;
+$screen-xs-max: ($screen-sm-min - 1);
+
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+
+//Iphone 6
+$screen-iphone-min: 375px;
+$screen-iphone-max: (screen-iphone-min - 1);

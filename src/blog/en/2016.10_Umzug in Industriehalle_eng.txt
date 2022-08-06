@@ -1,0 +1,13 @@
+[title]Move to factory building[title]
+
+[date]24.10.2016[date]
+
+[category]Company[category]
+
+![Relocation to new hall](../img/blog/Halle.JPG)
+
+[description]
+We move to a factory building with 300 square meter in Rohrbach.</br>
+There is enough room for working and further machines.</br>
+Our inventory of tools and the material stocks have improved continuously over the year.
+[description]

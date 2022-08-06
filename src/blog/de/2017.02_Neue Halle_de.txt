@@ -1,0 +1,17 @@
+[title]Neue Halle[title]
+
+[date]05.02.2017[date]
+
+
+[category]Unternehmen[category]
+
+![Neue Halle](../img/blog/NeueHalle.JPG)
+
+
+[description]
+Der Umzug in die Industriehalle ist geglückt. Die Maschine war nur 3 Tage ohne Strom – gut geplant ist halb gewonnen. </br></br>
+
+Eine konventionelle Drehmaschine wurde für einfachere Aufgaben und zum professionellen entgraten angeschafft. Weiterhin haben wir nun ein kleines aber feines Büro. </br>
+In unserem Palettenregal haben wir viel Platz für Material und weitere Ausrüstung. Zeit ist es geworden:
+Wir haben uns gewundert wie überhaupt so viele Utensilien zuvor in die kleine Garage gepasst haben.
+[description]

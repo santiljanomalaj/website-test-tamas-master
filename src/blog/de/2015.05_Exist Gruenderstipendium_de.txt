@@ -1,0 +1,23 @@
+[title]Erhalt des Exist Gründerstipendiums[title]
+
+[date]07.05.2015[date]
+
+[category]Unternehmen[category]
+
+![Exist Gründerstipendium](../img/blog/exist.png)
+
+
+
+[description]
+Ab Mai erhalten wir ein <a href='http://www.exist.de/DE/Home/inhalt.html' title='Exist Homepage'>Exist Gründerstipendium</a>.</br></br>
+
+Das Stipendium wird vom Bundesministerium für Wirtschaft und Energie ausgezahlt und unterstützt Existenzgründungen im universitätsnahen Umfeld.</br>
+Die Förderung ermöglicht es, das Projekt unabhängig von externen Geldgebern weiterzuentwicklen.</br></br>
+
+Ein großes Dankeschön an das <a href='https://www.zuv.fau.de/einrichtungen/WTT/gruenderberatung/' title='Gründerberatung FAU Erlangen'>Gründerbüro</a>
+der Friedrich-Alexander-Universität Erlangen-Nürnberg, das uns stets kompetent unterstützt hat.</br></br>
+
+Außerdem bedanken wir uns für die Betreuung unseres Projekts durch unseren Mentor
+<a href='http://www.mfk.uni-erlangen.de/web/index.php?article_id=6&mid=180' title='Kontakt zu Professor Hasse'> Prof. Dr. sc. ETHZ Alexander Hasse</a> und den
+<a href='https://www.mfk.uni-erlangen.de/web/' title='Lehrstuhl für Konstruktions- und Fertigungstechnik der FAU-Erlangen'>Lehrstuhl für Konstruktionstechnik</a>.
+[description]

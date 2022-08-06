@@ -1,0 +1,18 @@
+[title]ERP System Update[title]
+
+[date]09.12.2016[date]
+
+[category]Software[category]
+
+![ERP Update](../img/blog/erp.png)
+
+
+[description]
+Unser ERP wird komplett überarbeitet und ist bis Jahresende verkaufsfertig.</br></br>
+
+In diesem Jahr konnte viel Erfahrung über Prozessabläufe und deren digitale Nachbildung gesammelt werden.</br>
+Unser ERP System schließt die Verwaltung von Kunden (inklusive CRM Funktionalität), Aufträgen und Zeichnungen ebenso mit ein.</br></br>
+
+Geplant sind auch die Verwaltung von Maschinen, Werkzeugen und Materialien.</br>
+Durch sorgfältige Auswahl der Funktionen und den modularen Aufbau, bleibt einfache Bedienbarkeit gewährleistet.
+[description]
